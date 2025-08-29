@@ -2,13 +2,13 @@
 
 ## 1.3. Bài tập và thực hành
 
-**Bài 1. Liệt kê danh sách các ngôn ngữ lập trình, công cụ, kỹ năng, công nghệ mà bạn dự định học để theo nghề làm web.**
+### Bài 1. Liệt kê danh sách các ngôn ngữ lập trình, công cụ, kỹ năng, công nghệ mà bạn dự định học để theo nghề làm web.
 
 - Ngôn ngữ lập trình: JavaScript, Python, Java.
 - Công cụ: VSCode, GitHub, …
 - Kỹ năng: Kiến thức nền về Hệ điều hành, Kỹ thuật lập trình, Cấu trúc dữ liệu và thuật toán, Lập trình hướng đối tượng, Cơ sở dữ liệu; Cơ bản về lập trình front-end và back-end, …
 
-**Bài 2. Tự tạo một danh sách các thuật ngữ tiếng Anh chuyên ngành, kèm theo nghĩa tiếng Việt.**
+### Bài 2. Tự tạo một danh sách các thuật ngữ tiếng Anh chuyên ngành, kèm theo nghĩa tiếng Việt.
 
 | English Text                          | Vietnamese Meaning                                                                 |
 |--------------------------------------|------------------------------------------------------------------------------------|
@@ -42,3 +42,18 @@
 | Parallax Scrolling                   | Hiệu ứng cuộn thị sai (các lớp nền di chuyển với tốc độ khác nhau)                |
 | Favicon                              | Biểu tượng trang web trên tab trình duyệt                                          |
 | Sitemap                              | Sơ đồ trang web                                                                    |
+
+### Bài 3. Viết một CV cho bản thân, mục đích để biết bố cục một CV của người làm về công nghệ, biết được mình cần phải làm gì để có các nội dung ghi trong CV.
+
+### Bài 4. Tạo một blog cho bản thân viết về các chủ đề bạn đang theo đuổi, có thể tạo trên blogspot, wordpress, github, hoặc trên các hệ thống khác.
+
+<br><br>
+
+# Chương 2. Web là gì?
+
+## 1.4. Bài tập và thực hành
+
+### Bài 1. Tạo liên kết để mở một trang web trên hệ thống web.
+
+[bai_tap1.html](Chuong2/bai_tap1.html)
+
