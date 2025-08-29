@@ -2,7 +2,7 @@
 
 ## Tài liệu ghi chép
 
-[Tài liệu](Docs.md)
+[Tài liệu](Bài%20tập.md)
 
 ## Mục lục
 
