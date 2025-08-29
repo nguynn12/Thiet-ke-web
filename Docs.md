@@ -1,6 +1,6 @@
 # Chương 1. Nghề làm web
 
-## 1.3. bài tập và thực hành
+## 1.3. Bài tập và thực hành
 
 **Bài 1. Liệt kê danh sách các ngôn ngữ lập trình, công cụ, kỹ năng, công nghệ mà bạn dự định học để theo nghề làm web.**
 
