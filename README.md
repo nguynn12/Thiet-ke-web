@@ -9,3 +9,4 @@
 
 Chương 3
 
+* [Bài tập 1](Chuong3/test.html)
