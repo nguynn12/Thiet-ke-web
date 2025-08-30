@@ -63,4 +63,52 @@ Thiết lập trang mặc định
 
 ![Ảnh](Image/2.1.png)
 
+Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
+## 1.5. Câu hỏi ôn tập
+
+<div style="display: flex; gap: 20px;">
+
+<div style="flex: 1;">
+
+**Câu 1. WWW là viết tắt của?** <br>
+A. Wordl Wide Wed <br>
+B. World Wide Web <br>
+C. Word Wide Web <br>
+D. Word Wibe Web
+
+
+**Câu 2. URL là gì?** <br>
+A. Một giao thức trong Internet <br>
+B. Xác định tên của một máy tính trên mạng <br>
+C. Định vị một tài nguyên cụ thể trên web
+D. Một chuẩn trong truyền dữ liệu trên web
+
+
+**Câu 3. The Web is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by ________, and are accessible over the Internet.** <br>
+A. URL <br>
+B. pages <br>
+C. computers <br>
+D. hyperlinks
+
+</div>
+
+<div style="flex: 1;">
+
+**Câu 4. HTML là viết tắt của?** <br>
+A. HyperText Makeup Language <br>
+B. HTTP Technology Model Language <br>
+C. HyperText Markup Language <br>
+D. HyperTest Makeup Language
+
+
+**Câu 5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một _________ riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người dùng.** <br>
+A. công nghệ <br>
+B. mã HTML <br>
+C. liên kết <br>
+D. URL
+
+
+</div>
+
+</div>
