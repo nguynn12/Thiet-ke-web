@@ -57,6 +57,10 @@
 
 [bai_tap1.html](Chuong2/bai_tap1.html)
 
+### Bài 2. Phát triển từ bài tập 1, hãy tạo năm liên kết đến năm trang web mà bạn hay mở mỗi ngày. Thiết lập trang web này là trang mặc định, khi mở trình duyệt.
 
+Thiết lập trang mặc định
+
+![Ảnh](Image/2.1.png)
 
 
