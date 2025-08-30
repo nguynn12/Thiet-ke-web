@@ -69,38 +69,37 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
 <div style="display: flex; gap: 20px;">
 
-<div style="flex: 1;">
+   <div style="flex: 1;">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
 
 <div style="display: flex; gap: 20px;">
 <div style="flex: 1;">
-    A. Wordl Wide Wed <br>
-    B. World Wide Web
-</div>
-
+A. Wordl Wide Wed <br>
+<mark>B. World Wide Web</mark> </div>
 <div style="flex: 1;">
-    C. Word Wide Web <br>
-    D. Word Wibe Web
-</div>
-</div>
+C. Word Wide Web <br>
+D. Word Wibe Web </div>
+</div> <br>
 
 <b>Câu 2. URL là gì?</b> <br>
 A. Một giao thức trong Internet <br>
 B. Xác định tên của một máy tính trên mạng <br>
-C. Định vị một tài nguyên cụ thể trên web <br>
+<mark>C. Định vị một tài nguyên cụ thể trên web</mark> <br>
 D. Một chuẩn trong truyền dữ liệu trên web <br>
 
 
 <b>Câu 3. The Web is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by ________, and are accessible over the Internet.</b> <br>
-A. URL <br>
-B. pages <br>
-C. computers <br>
-D. hyperlinks <br>
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1;"> A. URL </div>
+<div style="flex: 1;"> B. pages </div>
+<div style="flex: 1;"> C. computers </div>
+<div style="flex: 1;"> D. hyperlinks </div>
+</div>
 
    </div>
 
    <div style="flex: 1;">
-
 <b>Câu 4. HTML là viết tắt của?</b> <br>
 A. HyperText Makeup Language <br>
 B. HTTP Technology Model Language <br>
