@@ -94,24 +94,31 @@ D. Một chuẩn trong truyền dữ liệu trên web <br>
 <div style="flex: 1;"> A. URL </div>
 <div style="flex: 1;"> B. pages </div>
 <div style="flex: 1;"> C. computers </div>
-<div style="flex: 1;"> D. hyperlinks </div>
+<div style="flex: 1;"> <mark>D. hyperlinks</mark> </div>
 </div>
 
    </div>
 
    <div style="flex: 1;">
 <b>Câu 4. HTML là viết tắt của?</b> <br>
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1;">
 A. HyperText Makeup Language <br>
-B. HTTP Technology Model Language <br>
-C. HyperText Markup Language <br>
-D. HyperTest Makeup Language <br>
+B. HTTP Technology Model Language </div>
+<div style="flex: 1;">
+<mark>C. HyperText Markup Language</mark> <br>
+D. HyperTest Makeup Language </div>
+</div> <br>
 
 
 <b>Câu 5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một _________ riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người dùng.</b> <br>
-A. công nghệ <br>
-B. mã HTML <br>
-C. liên kết <br>
-D. URL <br>
+
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. công nghệ </div>
+<div style="flex: 1;">B. mã HTML </div>
+<div style="flex: 1;">C. liên kết </div>
+<div style="flex: 1;"><mark>D. URL</mark> </div>
 
    </div>
 
