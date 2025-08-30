@@ -69,14 +69,20 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
 <div style="display: flex; gap: 20px;">
 
-   <div style="flex: 1;">
-
+<div style="flex: 1;">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
-A. Wordl Wide Wed <br>
-B. World Wide Web <br>
-C. Word Wide Web <br>
-D. Word Wibe Web <br>
 
+<div style="display: flex; gap: 20px;">
+<div style="flex: 1;">
+    A. Wordl Wide Wed <br>
+    B. World Wide Web
+</div>
+
+<div style="flex: 1;">
+    C. Word Wide Web <br>
+    D. Word Wibe Web
+</div>
+</div>
 
 <b>Câu 2. URL là gì?</b> <br>
 A. Một giao thức trong Internet <br>
