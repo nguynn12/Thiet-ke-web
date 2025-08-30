@@ -55,5 +55,5 @@
 
 ### Bài 1. Tạo liên kết để mở một trang web trên hệ thống web.
 
-[bai_tap1.html](Chuong2/bai_tap1.html)
+[bai_tap1.html]()
 
