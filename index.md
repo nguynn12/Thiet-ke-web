@@ -69,7 +69,7 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
 <div style="display: flex; gap: 20px;">
 
-<div style="flex: 1;">
+   <div style="flex: 1;">
 
 <b>Câu 1. WWW là viết tắt của?</b> <br>
 A. Wordl Wide Wed <br>
@@ -91,9 +91,9 @@ B. pages <br>
 C. computers <br>
 D. hyperlinks <br>
 
-</div>
+   </div>
 
-<div style="flex: 1;">
+   <div style="flex: 1;">
 
 <b>Câu 4. HTML là viết tắt của?</b> <br>
 A. HyperText Makeup Language <br>
@@ -108,6 +108,6 @@ B. mã HTML <br>
 C. liên kết <br>
 D. URL <br>
 
-</div>
+   </div>
 
 </div>
