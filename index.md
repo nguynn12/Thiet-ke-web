@@ -71,7 +71,6 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
    <div style="flex: 1;">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
-
 <div style="display: flex; gap: 20px;">
 <div style="flex: 1;">
 A. Wordl Wide Wed <br>
@@ -85,11 +84,9 @@ D. Word Wibe Web </div>
 A. Một giao thức trong Internet <br>
 B. Xác định tên của một máy tính trên mạng <br>
 <mark>C. Định vị một tài nguyên cụ thể trên web</mark> <br>
-D. Một chuẩn trong truyền dữ liệu trên web <br>
-
+D. Một chuẩn trong truyền dữ liệu trên web <br> <br>
 
 <b>Câu 3. The Web is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by ________, and are accessible over the Internet.</b> <br>
-
 <div style="display: flex; gap: 20px;">
 <div style="flex: 1;"> A. URL </div>
 <div style="flex: 1;"> B. pages </div>
@@ -101,7 +98,6 @@ D. Một chuẩn trong truyền dữ liệu trên web <br>
 
    <div style="flex: 1;">
 <b>Câu 4. HTML là viết tắt của?</b> <br>
-
 <div style="display: flex; gap: 20px;">
 <div style="flex: 1;">
 A. HyperText Makeup Language <br>
@@ -113,7 +109,6 @@ D. HyperTest Makeup Language </div>
 
 
 <b>Câu 5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một _________ riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người dùng.</b> <br>
-
 <div style="display: flex; gap: 20px;">
 <div style="flex: 1;">A. công nghệ </div>
 <div style="flex: 1;">B. mã HTML </div>
@@ -123,3 +118,4 @@ D. HyperTest Makeup Language </div>
    </div>
 
 </div>
+
