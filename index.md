@@ -109,11 +109,10 @@ D. HyperTest Makeup Language </div>
 
 
 <b>Câu 5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một _________ riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người dùng.</b> <br>
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. công nghệ </div>
-<div style="flex: 1;">B. mã HTML </div>
-<div style="flex: 1;">C. liên kết </div>
-<div style="flex: 1;"><mark>D. URL</mark> </div>
+A. công nghệ <br>
+B. mã HTML <br>
+C. liên kết <br>
+<mark>D. URL</mark> <br>
 
    </div>
 
