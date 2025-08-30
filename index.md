@@ -61,7 +61,7 @@
 
 Thiết lập trang mặc định
 
-![Ảnh](Image/2.1.png)
+[![Ảnh](Image/2.1.png)](Image/2.1.png)
 
 Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
