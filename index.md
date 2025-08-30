@@ -55,5 +55,5 @@
 
 ### Bài 1. Tạo liên kết để mở một trang web trên hệ thống web.
 
-[bai_tap1.html]()
+[bai_tap1.html](Chương%202.%20Web%20là%20gì?/bai_tap1.html)
 
