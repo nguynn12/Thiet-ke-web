@@ -10,7 +10,7 @@
 
 ### Bài 2. Tự tạo một danh sách các thuật ngữ tiếng Anh chuyên ngành, kèm theo nghĩa tiếng Việt.
 
-| English Text                          | Vietnamese Meaning                                                                 |
+| Vocabulary                          | Nghĩa tiếng Việt                                                                 |
 |--------------------------------------|------------------------------------------------------------------------------------|
 | HTML (HyperText Markup Language)     | Ngôn ngữ đánh dấu siêu văn bản                                                     |
 | CSS (Cascading Style Sheets)         | Bảng định kiểu xếp chồng                                                           |
