@@ -59,9 +59,11 @@
 
 ### Bài 2. Phát triển từ bài tập 1, hãy tạo năm liên kết đến năm trang web mà bạn hay mở mỗi ngày. Thiết lập trang web này là trang mặc định, khi mở trình duyệt.
 
-Thiết lập trang mặc định
-
 [![Ảnh](Image/2.1.png)](Image/2.1.png)
+
+<div align="center">
+<em>Thiết lập trang mặc định</em>
+</div> <br>
 
 Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
@@ -135,4 +137,18 @@ Câu 4: HTML là từ viết tắt của Hypertext Markup Language - Ngôn ngữ
 ## Bài tập và thực hành
 
 ### Bài 1. Truy cập và sử dụng một số trang web, ghi lại các thông tin được hiển thị trên thanh trạng thái (nằm ở phía dưới cùng của cửa sổ trình duyệt). Mục đích: để giúp bạn quan sát được quá trình lấy mã nguồn trang web từ server về trình duyệt, và quan sát các liên kết có trong một trang web.
+
+[![Ảnh](Image/3.1.png)](Image/3.1.png)
+
+<div align="center">
+<em>Có thể thấy được URL ở góc dưới bên trái khi rê chuột vào chữ “Wikipedia” ở tiêu đề</em>
+</div>
+
+### Bài 2. Tạo bookmark cho 5 trang web hữu ích đối với bạn.
+
+[![Ảnh](Image/3.2.png)](Image/3.2.png)
+
+<div align="center">
+<em>Thiết lập Bookmark</em>
+<div>
 
