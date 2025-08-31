@@ -150,5 +150,54 @@ Câu 4: HTML là từ viết tắt của Hypertext Markup Language - Ngôn ngữ
 
 <div align="center">
 <em>Thiết lập Bookmark</em>
-<div>
+</div> <br>
 
+[![Ảnh](Image/3.3.png)](Image/3.3.png)
+
+<div align="center">
+<em>Có thể thấy Bookmark với biểu tượng “cú Duolingo” với tên “2” đã xuất hiện trên Bookmark</em>
+</div>
+
+### Bài 3. Lưu đoạn mã nguồn của trang web sau vào một tập tin (test.html). Sau đó mở tập tin bằng trình duyệt. Sử dụng tab Elements của Developer tools, chỉ ra mã nguồn HTML, CSS và cây DOM của trang web.
+
+[![Ảnh](Image/3.4.png)](Image/3.4.png)
+
+Kết quả: [test.html](Chuong3/test.html)
+
+## Câu hỏi ôn tập
+
+Câu 1. Trình duyệt web đầu tiên do ai tạo ra? <br>
+A. Steve Jobs<br>
+B. Tim Berners-Lee<br>
+C. Bill Gates<br>
+D. Chrome<br>
+<br>
+Câu 2. Có thể sử dụng trình duyệt web để?<br>
+A. Xem nội dung trang web<br>
+B. Hỗ trợ quá trình thiết kế giao diện<br>
+C. Giúp tìm và sửa lỗi trong quá trình phát triển web<br>
+D. Cả A, B, và C<br>
+<br>
+Câu 3. A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.<br>
+A. application software<br>
+B. operating system<br>
+C. library<br>
+D. framework<br>
+<br>
+Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm?<br>
+A. HTML, CSS, PHP, JavaScript<br>
+B. HTML, CSS, C#<br>
+C. CSS, C#, SQL<br>
+D. CSS, JavaScript, HTML<br>
+
+Câu 5. Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì?<br>
+A. DOM, CSSOM, Trang web kết quả, HTML<br>
+B. CSS, DOM, Trang web kết quả, DOM Tree<br>
+C. DOM tree, CSSOM, Trang web kết quả, Render tree<br>
+D. CSSOM, DOM tree, OOP, Render tree<br>
+
+Câu 6. CSSOM là viết tắt của?<br>
+A. CSS Object Modern<br>
+B. CSS Oriented Model<br>
+C. CSS Object Mode<br>
+D. CSS Object Model<br>
