@@ -118,3 +118,21 @@ C. liên kết <br>
 
 </div>
 
+Giải thích:<br>
+
+Câu 1: WWW là từ viết tắt của World Wide Web - Mạng lưới toàn cầu. <br>
+
+Câu 2: URL là từ viết tắt của Uniform Resource Locator - Bộ định vị tài nguyên thống nhất nôm na là “Địa chỉ của một tài nguyên web”. <br>
+
+Câu 3: Dịch sang tiếng việt nghĩa là “Web là một hệ thống thông tin nơi mà các tài liệu và các tài nguyên web khác được định danh bằng URL (ví dụ như  https://example.com/),có thể được liên kết với nhau bằng _____,  và có thể truy cập qua internet. Hyperlinks là siêu liên kết - một tham chiếu đến tài liệu hoặc tài nguyên web. <br>
+
+Câu 4: HTML là từ viết tắt của Hypertext Markup Language - Ngôn ngữ đánh dấu siêu văn bản.
+
+<br> <br>
+
+# Chương 3. Trình duyệt Web
+
+## Bài tập và thực hành
+
+### Bài 1. Truy cập và sử dụng một số trang web, ghi lại các thông tin được hiển thị trên thanh trạng thái (nằm ở phía dưới cùng của cửa sổ trình duyệt). Mục đích: để giúp bạn quan sát được quá trình lấy mã nguồn trang web từ server về trình duyệt, và quan sát các liên kết có trong một trang web.
+
