@@ -47,7 +47,7 @@
 
 ### Bài 4. Tạo một blog cho bản thân viết về các chủ đề bạn đang theo đuổi, có thể tạo trên blogspot, wordpress, github, hoặc trên các hệ thống khác.
 
-<br><br>
+<br> <br>
 
 # Chương 2. Web là gì?
 
@@ -73,14 +73,16 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
    <div style="flex: 1;">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1;">
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
 A. Wordl Wide Wed <br>
-<mark>B. World Wide Web</mark> </div>
-<div style="flex: 1;">
+<mark>B. World Wide Web</mark> 
+         </div>
+         <div style="flex: 1;">
 C. Word Wide Web <br>
-D. Word Wibe Web </div>
-</div> <br>
+D. Word Wibe Web 
+         </div>
+      </div> <br>
 
 <b>Câu 2. URL là gì?</b> <br>
 A. Một giao thức trong Internet <br>
@@ -89,26 +91,27 @@ B. Xác định tên của một máy tính trên mạng <br>
 D. Một chuẩn trong truyền dữ liệu trên web <br> <br>
 
 <b>Câu 3. The Web is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by ________, and are accessible over the Internet.</b> <br>
-<div style="display: flex; gap: 20px;">
+      <div style="display: flex; gap: 20px;">
 <div style="flex: 1;"> A. URL </div>
 <div style="flex: 1;"> B. pages </div>
 <div style="flex: 1;"> C. computers </div>
 <div style="flex: 1;"> <mark>D. hyperlinks</mark> </div>
-</div>
+      </div>
 
    </div>
 
    <div style="flex: 1;">
 <b>Câu 4. HTML là viết tắt của?</b> <br>
-<div style="display: flex; gap: 20px;">
-<div style="flex: 1;">
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
 A. HyperText Makeup Language <br>
-B. HTTP Technology Model Language </div>
-<div style="flex: 1;">
+B. HTTP Technology Model Language 
+         </div>
+         <div style="flex: 1;">
 <mark>C. HyperText Markup Language</mark> <br>
-D. HyperTest Makeup Language </div>
-</div> <br>
-
+D. HyperTest Makeup Language 
+         </div>
+      </div> <br>
 
 <b>Câu 5. Trình duyệt web là một ứng dụng phần mềm để truy cập thông tin trên World Wide Web. Mỗi trang web, hình ảnh và video riêng lẻ được xác định bằng một _________ riêng biệt, cho phép các trình duyệt truy xuất và hiển thị chúng trên thiết bị của người dùng.</b> <br>
 A. công nghệ <br>
@@ -120,7 +123,7 @@ C. liên kết <br>
 
 </div> <br>
 
-Giải thích:<br>
+Giải thích: <br>
 
 Câu 1: WWW là từ viết tắt của World Wide Web - Mạng lưới toàn cầu. <br>
 
@@ -166,38 +169,60 @@ Kết quả: [test.html](Chuong3/test.html)
 
 ## Câu hỏi ôn tập
 
-Câu 1. Trình duyệt web đầu tiên do ai tạo ra? <br>
-A. Steve Jobs<br>
-B. Tim Berners-Lee<br>
-C. Bill Gates<br>
-D. Chrome<br>
-<br>
-Câu 2. Có thể sử dụng trình duyệt web để?<br>
-A. Xem nội dung trang web<br>
-B. Hỗ trợ quá trình thiết kế giao diện<br>
-C. Giúp tìm và sửa lỗi trong quá trình phát triển web<br>
-D. Cả A, B, và C<br>
-<br>
-Câu 3. A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.<br>
-A. application software<br>
-B. operating system<br>
-C. library<br>
-D. framework<br>
-<br>
-Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm?<br>
-A. HTML, CSS, PHP, JavaScript<br>
-B. HTML, CSS, C#<br>
-C. CSS, C#, SQL<br>
-D. CSS, JavaScript, HTML<br>
+<div style="display: flex; gap: 20px;">
 
-Câu 5. Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì?<br>
-A. DOM, CSSOM, Trang web kết quả, HTML<br>
-B. CSS, DOM, Trang web kết quả, DOM Tree<br>
-C. DOM tree, CSSOM, Trang web kết quả, Render tree<br>
-D. CSSOM, DOM tree, OOP, Render tree<br>
+   <div style="flex: 1;">
+<b>Câu 1. Trình duyệt web đầu tiên do ai tạo ra?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Steve Jobs <br>
+<mark>B. Tim Berners-Lee</mark>
+         </div>
+         <div style="flex: 1;">
+C. Bill Gates <br>
+D. Chrome 
+         </div>
+      </div> <br>
 
-Câu 6. CSSOM là viết tắt của?<br>
-A. CSS Object Modern<br>
-B. CSS Oriented Model<br>
-C. CSS Object Mode<br>
-D. CSS Object Model<br>
+<b>Câu 2. Có thể sử dụng trình duyệt web để?</b> <br>
+A. Xem nội dung trang web <br>
+B. Hỗ trợ quá trình thiết kế giao diện <br>
+C. Giúp tìm và sửa lỗi trong quá trình phát triển web <br>
+<mark>D. Cả A, B, và C</mark> <br>
+<br>
+
+<b>Câu 3. A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+<mark>A. application software</mark> <br>
+B. operating system
+         </div>
+         <div style="flex: 1;">
+C. library <br>
+D. framework
+         </div>
+      </div> <br>
+
+   </div>
+
+   <div style="flex: 1;">
+Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm? <br>
+A. HTML, CSS, PHP, JavaScript <br>
+B. HTML, CSS, C# <br>
+C. CSS, C#, SQL <br>
+<mark>D. CSS, JavaScript, HTML</mark> <br>
+
+Câu 5. Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì? <br>
+A. DOM, CSSOM, Trang web kết quả, HTML <br>
+B. CSS, DOM, Trang web kết quả, DOM Tree <br>
+<mark>C. DOM tree, CSSOM, Trang web kết quả, Render tree</mark> <br>
+D. CSSOM, DOM tree, OOP, Render tree <br>
+
+Câu 6. CSSOM là viết tắt của? <br>
+A. CSS Object Modern <br>
+B. CSS Oriented Model <br>
+C. CSS Object Mode <br>
+<mark>D. CSS Object Model</mark> <br>
+
+   </div>
+</div>
