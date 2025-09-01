@@ -240,13 +240,16 @@ C. CSS Object Mode <br>
 
 Giải thích: <br>
 Câu 1: Ông tạo ra World Wide Web (sau đổi tên thành Nexus) năm 1990 – đây là trình duyệt web đầu tiên. <br>
-Câu 3: Dịch sang tiếng việt nghĩa là “Một trình duyệt web (thường liên quan tới một trình duyệt hoặc trình duyệt internet) là một ____ để truy cập vào web.” <br>
-Trình duyệt là phần mềm ứng dụng, không phải hệ điều hành hay framework.
+
+Câu 3: Dịch sang tiếng việt nghĩa là “Một trình duyệt web (thường liên quan tới một trình duyệt hoặc trình duyệt internet) là một ____ để truy cập vào web.” Trình duyệt là phần mềm ứng dụng, không phải hệ điều hành hay framework. <br>
+
 Câu 4: Trình duyệt nhận trực tiếp HTML, CSS, JavaScript còn PHP, C#, SQL chạy ở phía server, không gửi nguyên bản về cho client. <br>
-Câu 5: Các bước của quá trình hiển thị:
+
+Câu 5: Các bước của quá trình hiển thị: 
 - Phân tích mã HTML để tạo cây DOM (DOM tree).
 - Phân tích mã CSS để tạo CSSOM (CSS Object Model - mô hình đối tượng CSS).
 - Kết hợp cây DOM và CSSOM để tạo ra cây kết xuất (Render tree).
 - Dựng khung giao diện (layout) dựa trên cây kết xuất.
 - Hiển thị nội dung lên trình duyệt (painting). <br>
+
 Câu 6: CSSOM là từ viết tắt của CSS Object Model - Mô hình đối tượng.
