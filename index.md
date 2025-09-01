@@ -97,7 +97,6 @@ D. Một chuẩn trong truyền dữ liệu trên web <br> <br>
 <div style="flex: 1;"> C. computers </div>
 <div style="flex: 1;"> <mark>D. hyperlinks</mark> </div>
       </div>
-
    </div>
 
    <div style="flex: 1;">
@@ -188,8 +187,7 @@ D. Chrome
 A. Xem nội dung trang web <br>
 B. Hỗ trợ quá trình thiết kế giao diện <br>
 C. Giúp tìm và sửa lỗi trong quá trình phát triển web <br>
-<mark>D. Cả A, B, và C</mark> <br>
-<br>
+<mark>D. Cả A, B, và C</mark> <br> <br>
 
 <b>Câu 3. A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.</b> <br>
       <div style="display: flex; gap: 20px;">
@@ -201,7 +199,7 @@ B. operating system
 C. library <br>
 D. framework
          </div>
-      </div> <br>
+      </div>
 
    </div>
 
@@ -222,7 +220,7 @@ C. CSS, C#, SQL <br>
 A. DOM, CSSOM, Trang web kết quả, HTML <br>
 B. CSS, DOM, Trang web kết quả, DOM Tree <br>
 <mark>C. DOM tree, CSSOM, Trang web kết quả, Render tree</mark> <br>
-D. CSSOM, DOM tree, OOP, Render tree <br>
+D. CSSOM, DOM tree, OOP, Render tree <br> <br>
 
 <b>Câu 6. CSSOM là viết tắt của?</b> <br>
       <div style="display: flex; gap: 20px;">
