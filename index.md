@@ -239,6 +239,7 @@ C. CSS Object Mode <br>
 </div> <br>
 
 Giải thích: <br>
+
 Câu 1: Ông tạo ra World Wide Web (sau đổi tên thành Nexus) năm 1990 – đây là trình duyệt web đầu tiên. <br>
 
 Câu 3: Dịch sang tiếng việt nghĩa là “Một trình duyệt web (thường liên quan tới một trình duyệt hoặc trình duyệt internet) là một ____ để truy cập vào web.” Trình duyệt là phần mềm ứng dụng, không phải hệ điều hành hay framework. <br>
