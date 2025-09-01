@@ -206,23 +206,47 @@ D. framework
    </div>
 
    <div style="flex: 1;">
-Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm? <br>
+<b>Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1px;">
 A. HTML, CSS, PHP, JavaScript <br>
-B. HTML, CSS, C# <br>
+B. HTML, CSS, C#
+         </div>
+         <div style="flex: 1px">
 C. CSS, C#, SQL <br>
-<mark>D. CSS, JavaScript, HTML</mark> <br>
+<mark>D. CSS, JavaScript, HTML</mark>
+         </div>
+      </div> <br>
 
-Câu 5. Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì? <br>
+<b>Câu 5. Một số kết quả trung gian được tạo ra khi trình duyệt hiển thị trang web là gì?</b> <br>
 A. DOM, CSSOM, Trang web kết quả, HTML <br>
 B. CSS, DOM, Trang web kết quả, DOM Tree <br>
 <mark>C. DOM tree, CSSOM, Trang web kết quả, Render tree</mark> <br>
 D. CSSOM, DOM tree, OOP, Render tree <br>
 
-Câu 6. CSSOM là viết tắt của? <br>
+<b>Câu 6. CSSOM là viết tắt của?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1px;">
 A. CSS Object Modern <br>
-B. CSS Oriented Model <br>
+B. CSS Oriented Model
+         </div>
+         <div style="flex: 1px;">
 C. CSS Object Mode <br>
-<mark>D. CSS Object Model</mark> <br>
-
+<mark>D. CSS Object Model</mark>
+         </div>
+      </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+Câu 1: Ông tạo ra World Wide Web (sau đổi tên thành Nexus) năm 1990 – đây là trình duyệt web đầu tiên. <br>
+Câu 3: Dịch sang tiếng việt nghĩa là “Một trình duyệt web (thường liên quan tới một trình duyệt hoặc trình duyệt internet) là một ____ để truy cập vào web.” <br>
+Trình duyệt là phần mềm ứng dụng, không phải hệ điều hành hay framework.
+Câu 4: Trình duyệt nhận trực tiếp HTML, CSS, JavaScript còn PHP, C#, SQL chạy ở phía server, không gửi nguyên bản về cho client. <br>
+Câu 5: Các bước của quá trình hiển thị:
+- Phân tích mã HTML để tạo cây DOM (DOM tree).
+- Phân tích mã CSS để tạo CSSOM (CSS Object Model - mô hình đối tượng CSS).
+- Kết hợp cây DOM và CSSOM để tạo ra cây kết xuất (Render tree).
+- Dựng khung giao diện (layout) dựa trên cây kết xuất.
+- Hiển thị nội dung lên trình duyệt (painting). <br>
+Câu 6: CSSOM là từ viết tắt của CSS Object Model - Mô hình đối tượng.
