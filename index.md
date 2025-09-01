@@ -121,7 +121,7 @@ C. liên kết <br>
    </div>
 
 </div> <br>
-
+ 
 Giải thích: <br>
 
 Câu 1: WWW là từ viết tắt của World Wide Web - Mạng lưới toàn cầu. <br>
@@ -252,3 +252,88 @@ Câu 5: Các bước của quá trình hiển thị:
 - Hiển thị nội dung lên trình duyệt (painting). <br>
 
 Câu 6: CSSOM là từ viết tắt của CSS Object Model - Mô hình đối tượng.
+
+<br> <br>
+
+# Chương 4. URL, siêu liên kết và siêu văn bản
+
+## 1.1.6. Bài tập và thực hành
+
+### Bài 1. Quan sát một số URL trên mạng
+
+[![Ảnh](Image/4.1.png)](Image/4.1.png)
+
+<div align="center">
+<em>Địa chỉ IP máy server của Wikipedia: 2001:df2:e500:ed1a::1</em>
+</div> <br>
+
+Di chuột vào các liên kết trên Main Page và ghi lại URL (trên thanh trạng thái – góc dưới trái):
+https://en.wikipedia.org/wiki/Talk:Main_Page
+https://en.wikipedia.org/wiki/Main_Page
+https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
+https://en.wikipedia.org/wiki/English_language
+https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
+
+Trang Wikipedia vẫn hỗ trợ giao thức HTTP: http://en.wikipedia.org:80/wiki/Main_Page
+
+Truy cập trang Tiki: https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh <br>
+query_string (chuỗi truy vấn): bắt đầu sau dấu “?”: q=loa%20m%C3%A1y%20t%C3%ADnh
+
+### Bài 2. Quan sát URL trên máy cục bộ.
+
+Trên máy cục bộ, sử dụng phần mềm Notepad tạo một tập tin HTML có nội dung bất kỳ, ví dụ D:\index.html với nội dung là dòng chữ “Xin chao”
+
+Mở tập tin index.html bằng trình duyệt, sẽ thấy dòng chữ “Xin chao” xuất hiện trên màn hình.
+
+[index.html](Chuong4/index.html)
+
+Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html vào trong thư mục vừa tạo, quan sát URL để hiểu thêm về đường dẫn thư mục. Ví dụ: file///D:/mywebsite/index.html
+
+[![Ảnh](Image/4.2.png)](Image/4.2.png)
+
+### Bài 3. Tạo ra một siêu văn bản, có chứa 5 liên kết, để kết nối tới 5 trang web mà bạn yêu thích.
+
+[baiTap3.html](Chuong4/baiTap3.html)
+
+## 1.1.7. Câu hỏi ôn tập
+
+Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it.
+A. address
+B. channel
+C. format
+<mark>D. mechanism</mark>
+
+
+Câu 2. Các thành phần thường có trong một URL gồm?
+A. schema, fragment_id, query_string, path, port, domain
+B. scheme, fragment_id, query_string, path, socket, domain
+<mark>C. scheme, fragment_id, query_string, path, port, domain</mark>
+D. scheme, fragment_id, query_language, path, port, domain
+
+
+Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?
+A. http
+B. https
+<mark>C. file</mark>
+D. ftp
+
+
+Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau?
+A. Là cú pháp để truy cập tập tin trên máy cục bộ
+<mark>B. Do lược bỏ tên của máy tính (localhost)</mark>
+C. Là chuẩn của giao thức FTP
+D. Là chuẩn của giao tiếp SSL
+
+
+Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document.
+<mark>A. reference</mark>
+B. format
+C. following
+D. calling
+
+
+Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks.
+A. link
+<mark>B. text</mark>
+C. format
+D. web
