@@ -311,7 +311,7 @@ Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html và
 A. schema, fragment_id, query_string, path, port, domain <br>
 B. scheme, fragment_id, query_string, path, socket, domain <br>
 <mark>C. scheme, fragment_id, query_string, path, port, domain</mark> <br>
-D. scheme, fragment_id, query_language, path, port, domain <br>
+D. scheme, fragment_id, query_language, path, port, domain <br> <br>
 
 <b>Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?</b> <br>
       <div style="display: flex; gap: 20px;">
@@ -321,7 +321,7 @@ D. scheme, fragment_id, query_language, path, port, domain <br>
 <div style="flex: 1;"> D. ftp <br> </div>
       </div>
    </div>
-   
+
    <div style="flex: 1;">
 Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau? <br>
 A. Là cú pháp để truy cập tập tin trên máy cục bộ <br>
