@@ -297,43 +297,39 @@ Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html và
 
 ## 1.1.7. Câu hỏi ôn tập
 
-Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it.
-A. address
-B. channel
-C. format
-<mark>D. mechanism</mark>
+Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it. <br>
+A. address <br>
+B. channel <br>
+C. format <br>
+<mark>D. mechanism</mark> <br>
 
+Câu 2. Các thành phần thường có trong một URL gồm? <br>
+A. schema, fragment_id, query_string, path, port, domain <br>
+B. scheme, fragment_id, query_string, path, socket, domain <br>
+<mark>C. scheme, fragment_id, query_string, path, port, domain</mark> <br>
+D. scheme, fragment_id, query_language, path, port, domain <br>
 
-Câu 2. Các thành phần thường có trong một URL gồm?
-A. schema, fragment_id, query_string, path, port, domain
-B. scheme, fragment_id, query_string, path, socket, domain
-<mark>C. scheme, fragment_id, query_string, path, port, domain</mark>
-D. scheme, fragment_id, query_language, path, port, domain
+Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là? <br>
+A. http <br>
+B. https <br>
+<mark>C. file</mark> <br>
+D. ftp <br>
 
+Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau? <br>
+A. Là cú pháp để truy cập tập tin trên máy cục bộ <br>
+<mark>B. Do lược bỏ tên của máy tính (localhost)</mark> <br>
+C. Là chuẩn của giao thức FTP <br>
+D. Là chuẩn của giao tiếp SSL <br>
 
-Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?
-A. http
-B. https
-<mark>C. file</mark>
-D. ftp
+Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document. <br>
+<mark>A. reference</mark> <br>
+B. format <br>
+C. following <br>
+D. calling<br>
+ 
+Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks. <br>
+A. link <br>
+<mark>B. text</mark> <br>
+C. format <br>
+D. web <br>
 
-
-Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau?
-A. Là cú pháp để truy cập tập tin trên máy cục bộ
-<mark>B. Do lược bỏ tên của máy tính (localhost)</mark>
-C. Là chuẩn của giao thức FTP
-D. Là chuẩn của giao tiếp SSL
-
-
-Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document.
-<mark>A. reference</mark>
-B. format
-C. following
-D. calling
-
-
-Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks.
-A. link
-<mark>B. text</mark>
-C. format
-D. web
