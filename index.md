@@ -297,24 +297,32 @@ Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html và
 
 ## 1.1.7. Câu hỏi ôn tập
 
-Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it. <br>
-A. address <br>
-B. channel <br>
-C. format <br>
-<mark>D. mechanism</mark> <br>
+<div style="display: flex; gap: 20px;">
+   <div style="flex: 1;">
+<b>Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;"> A. address </div>
+<div style="flex: 1;"> B. channel </div>
+<div style="flex: 1;"> C. format </div>
+<div style="flex: 1;"><mark>D. mechanism</mark> </div>
+      </div> <br>
 
-Câu 2. Các thành phần thường có trong một URL gồm? <br>
+<b>Câu 2. Các thành phần thường có trong một URL gồm?</b> <br>
 A. schema, fragment_id, query_string, path, port, domain <br>
 B. scheme, fragment_id, query_string, path, socket, domain <br>
 <mark>C. scheme, fragment_id, query_string, path, port, domain</mark> <br>
 D. scheme, fragment_id, query_language, path, port, domain <br>
 
-Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là? <br>
-A. http <br>
-B. https <br>
-<mark>C. file</mark> <br>
-D. ftp <br>
-
+<b>Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;"> A. http </div>
+<div style="flex: 1;"> B. https </div>
+<div style="flex: 1;"><mark>C. file</mark> </div>
+<div style="flex: 1;"> D. ftp <br> </div>
+      </div>
+   </div>
+   
+   <div style="flex: 1;">
 Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau? <br>
 A. Là cú pháp để truy cập tập tin trên máy cục bộ <br>
 <mark>B. Do lược bỏ tên của máy tính (localhost)</mark> <br>
@@ -332,4 +340,5 @@ A. link <br>
 <mark>B. text</mark> <br>
 C. format <br>
 D. web <br>
-
+   </div>
+</div>
