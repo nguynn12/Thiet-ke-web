@@ -368,3 +368,13 @@ Câu 6: <br>
 <br> <br>
 
 # Chương 5. HTML_Tạo một trang web đơn giản
+
+## 1.1.7. Bài tập và thực hành
+
+### Bài 1. Viết lại các đoạn mã trong phần lý thuyết.
+
+Bước 3. [Ngày đầu tiên đi học 1](Chuong5/NDTDH.html)
+
+Bước 4. [Ngày đầu tiên đi học 2](Chuong5/NDTDH1.html) <br> <em>Mở mã nguồn để quan sát</em>
+
+Bước 5. [index.html](Chuong5/index1.html)
