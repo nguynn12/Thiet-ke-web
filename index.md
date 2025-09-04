@@ -349,4 +349,22 @@ D. Là chuẩn của giao tiếp SSL
 <div style="flex: 1;">D. web
       </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: <br>
+
+<br> <br>
+
+# Chương 5. HTML_Tạo một trang web đơn giản
