@@ -291,6 +291,10 @@ Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html và
 
 [![Ảnh](Image/4.2.png)](Image/4.2.png)
 
+<div align="center">
+<em>Có thể thấy trên đường dẫn đã xuất hiện chữ "D:"</em>
+</div> <br>
+
 ### Bài 3. Tạo ra một siêu văn bản, có chứa 5 liên kết, để kết nối tới 5 trang web mà bạn yêu thích.
 
 [baiTap3.html](Chuong4/baiTap3.html)
