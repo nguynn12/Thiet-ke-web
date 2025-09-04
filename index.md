@@ -268,15 +268,15 @@ Câu 6: CSSOM là từ viết tắt của CSS Object Model - Mô hình đối t�
 </div> <br>
 
 Di chuột vào các liên kết trên Main Page và ghi lại URL (trên thanh trạng thái – góc dưới trái):
-https://en.wikipedia.org/wiki/Talk:Main_Page
-https://en.wikipedia.org/wiki/Main_Page
-https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page
-https://en.wikipedia.org/wiki/English_language
-https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia
+[https://en.wikipedia.org/wiki/Talk:Main_Page](https://en.wikipedia.org/wiki/Talk:Main_Page)
+[https://en.wikipedia.org/wiki/Main_Page](https://en.wikipedia.org/wiki/Main_Page)
+[https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page](https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page)
+[https://en.wikipedia.org/wiki/English_language](https://en.wikipedia.org/wiki/English_language)
+[https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia](https://en.wikipedia.org/wiki/Help:Introduction_to_Wikipedia)
 
-Trang Wikipedia vẫn hỗ trợ giao thức HTTP: http://en.wikipedia.org:80/wiki/Main_Page
+Trang Wikipedia vẫn hỗ trợ giao thức HTTP: [http://en.wikipedia.org:80/wiki/Main_Page](http://en.wikipedia.org:80/wiki/Main_Page)
 
-Truy cập trang Tiki: https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh <br>
+Truy cập trang Tiki: [https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh](https://tiki.vn/search?q=loa%20m%C3%A1y%20t%C3%ADnh) <br>
 query_string (chuỗi truy vấn): bắt đầu sau dấu “?”: q=loa%20m%C3%A1y%20t%C3%ADnh
 
 ### Bài 2. Quan sát URL trên máy cục bộ.
