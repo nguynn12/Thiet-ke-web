@@ -268,6 +268,7 @@ Câu 6: CSSOM là từ viết tắt của CSS Object Model - Mô hình đối t�
 </div> <br>
 
 Di chuột vào các liên kết trên Main Page và ghi lại URL (trên thanh trạng thái – góc dưới trái):
+
 [https://en.wikipedia.org/wiki/Talk:Main_Page](https://en.wikipedia.org/wiki/Talk:Main_Page) <br>
 [https://en.wikipedia.org/wiki/Main_Page](https://en.wikipedia.org/wiki/Main_Page) <br>
 [https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page](https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page) <br>
@@ -346,7 +347,7 @@ D. Là chuẩn của giao tiếp SSL
 <div style="flex: 1;">A. link </div>
 <div style="flex: 1;"><mark>B. text</mark> </div>
 <div style="flex: 1;">C. format </div>
-<div style="flex: 1;">D. web
+<div style="flex: 1;">D. web </div>
       </div>
    </div>
 </div> <br>
