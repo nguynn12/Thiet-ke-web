@@ -318,27 +318,31 @@ D. scheme, fragment_id, query_language, path, port, domain <br> <br>
 <div style="flex: 1;"> A. http </div>
 <div style="flex: 1;"> B. https </div>
 <div style="flex: 1;"><mark>C. file</mark> </div>
-<div style="flex: 1;"> D. ftp <br> </div>
-      </div>
-   </div>
+<div style="flex: 1;"> D. ftp </div> <br>
+      </div> <br>
 
-   <div style="flex: 1;">
-Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau? <br>
+<b>Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau?</b> <br>
 A. Là cú pháp để truy cập tập tin trên máy cục bộ <br>
 <mark>B. Do lược bỏ tên của máy tính (localhost)</mark> <br>
 C. Là chuẩn của giao thức FTP <br>
-D. Là chuẩn của giao tiếp SSL <br>
+D. Là chuẩn của giao tiếp SSL
+   </div>
 
-Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document. <br>
-<mark>A. reference</mark> <br>
-B. format <br>
-C. following <br>
-D. calling<br>
- 
-Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks. <br>
-A. link <br>
-<mark>B. text</mark> <br>
-C. format <br>
-D. web <br>
+   <div style="flex: 1;">
+<b>Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;"><mark>A. reference</mark> </div>
+<div style="flex: 1;">B. format </div>
+<div style="flex: 1;">C. following </div>
+<div style="flex: 1;">D. calling </div>
+      </div> <br>
+
+<b>Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. link </div>
+<div style="flex: 1;"><mark>B. text</mark> </div>
+<div style="flex: 1;">C. format </div>
+<div style="flex: 1;">D. web
+      </div>
    </div>
 </div>
