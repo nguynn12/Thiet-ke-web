@@ -762,3 +762,80 @@ Ví dụ: [Figure và Figcaption](Chuong7/FigureNFigcaption.html)
 
 [Breadcrumbs.html](Chuong7/BreadCrumbs.html)
 
+### Bài tập 4. Marking up a recipe
+
+The owners of the Black Goose Bistro have decided to share recipes and news on their site. In the exercises in this chapter, we’ll assist them with content markup. In this exercise, you will find the raw text of a recipe. It’s up to you to decide which element is the best semantic match for each chunk of content. You’ll use paragraphs, headings, lists, and at least one special content element.
+
+[Tapenade Recipe](Chuong7/TapenadeRecipe.html)
+
+## 1.1.6. Câu hỏi ôn tập
+
+<div style="display: flex; gap: 20px;">
+   <div style="flex: 1;">
+<b>Câu hỏi 1. Trong HTML, chữ "hr" trong phần tử hr là viết tắt của chữ nào ?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Horizontal Ruler <br>
+B. Header
+         </div>
+         <div style="flex: 1;">
+C. Heading ruler <br>
+<mark>D. Horizontal Rule</mark>
+         </div>
+      </div> <br>
+
+<b>Câu hỏi 2. Trong HTML, chữ “pre” trong phần tử pre là viết tắt của chữ nào?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Preferred text <br>
+<mark>B. Preformatted text</mark>
+         </div>
+         <div style="flex: 1;">
+C. Previous text <br>
+D. Part reference
+         </div>
+      </div> <br>
+
+<b>Câu hỏi 3. Trong HTML, chữ ‘dl” trong phần tử dl là viết tắt của chữ nào?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Document list <br>
+B. Data list
+         </div>
+         <div style="flex: 1;">
+<mark>C. Description list</mark> <br>
+D. Data link
+         </div>
+      </div>
+   </div>
+   
+   <div style="flex: 1px;">
+<b>Câu hỏi 4. Trong HTML, chữ ‘ul” trong phần tử ul là viết tắt của chữ nào?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+<mark>A. unordered list</mark> <br>
+B. unorder list
+         </div>
+         <div style="flex: 1;">
+C. unordered line <br>
+D. under list
+         </div>
+      </div> <br>
+
+<b>Câu hỏi 5. Trong HTML, chữ ‘ol” trong phần tử ol là viết tắt của chữ nào?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. over list <br>
+B. over line
+         </div>
+         <div style="flex: 1;">
+<mark>C. ordered list</mark> <br>
+D. order list
+         </div>
+      </div>
+   </div>
+</div>
+
+<br> <br>
+
+# Chương 8. 
