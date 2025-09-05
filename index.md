@@ -750,19 +750,19 @@ Nếu cần thêm chú thích cho: hình ảnh, đoạn mã, video hoặc bảng
 
 Ví dụ: [Figure và Figcaption](Chuong7/FigureNFigcaption.html)
 
-### Bài tập 2. Sử dụng ul/li hoặc ol/li để tạo menu như hình dưới đây (khung màu xanh).
+### Bài 2. Sử dụng ul/li hoặc ol/li để tạo menu như hình dưới đây (khung màu xanh).
 
 [![Ảnh](Image/7.1.jpg)](Image/7.1.jpg)
 
 [Menu.html](Chuong7/Menu.html)
 
-### Bài tập 3. Tạo breadcrumbs như hình sau.
+### Bài 3. Tạo breadcrumbs như hình sau.
 
 [![Ảnh](Image/7.2.png)](Image/7.2.png)
 
 [Breadcrumbs.html](Chuong7/BreadCrumbs.html)
 
-### Bài tập 4. Marking up a recipe
+### Exercise 4. Marking up a recipe
 
 The owners of the Black Goose Bistro have decided to share recipes and news on their site. In the exercises in this chapter, we’ll assist them with content markup. In this exercise, you will find the raw text of a recipe. It’s up to you to decide which element is the best semantic match for each chunk of content. You’ll use paragraphs, headings, lists, and at least one special content element.
 
@@ -839,6 +839,49 @@ D. order list
 <br> <br>
 
 # Chương 8. HTML - Bố cục trang web
+
+## 1.1.3. Bài tập và thực hành
+
+### Bài 1. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### Vùng nội dung chính (main content)
+
+Trong một website, nội dung các vùng tiêu đề (masthead, header), khung nội dung bổ trợ (sidebar), vùng quảng cáo (ads), và vùng cuối/chân trang (footer) thường xuất hiện nhiều lần, trong nhiều trang web (web page). Riêng vùng nội dung chính (main) chỉ xuất hiện một lần.
+
+Ví dụ: [Main](Chuong8/Main.html)
+
+#### Phần đầu (headers)
+
+Phần tử header thường dùng để chứa nội dung giới thiệu, tuy nhiên, trong thực tế nó có thể chứa mọi thứ, miễn là liên quan đến mục đích giới thiệu, ví dụ logo, tiêu đề, khẩu hiệu, thanh điều hướng. Phần tử này thường được đặt ở đầu của trang web, hoặc phía trên cùng của một vùng (section) hoặc một bài viết (article).
+
+Ví dụ: [Header](Chuong8/Header.html)
+
+#### Phần chân (footers)
+
+Phần tử footer dùng để chứa các thông tin ở cuối một trang web, cuối một vùng (section) hoặc cuối một bài viết (article). Phần tử footer thường chứa tên tác giả, thông tin bản quyền (copyright), các tài liệu liên quan, hoặc các điều hướng (navigation).
+
+Ví dụ: [Footer](Chuong8/Footer.html)
+
+#### Phân vùng (section)
+
+Phần tử section dùng để chia nội dung thành các vùng theo các chủ đề khác nhau. Mỗi phần tử section thường bao gồm heading (h1-h6) và phần nội dung. Có thể hiểu nôm na, phần tử section được sử dụng để liệt kê nội dung, giống như vai trò liệt kê các mục trong danh sách của phần tử li.
+
+Ví dụ: [Section 1](Chuong8/Section1.html) <br>
+
+Ví dụ khác: [Section 2](Chuong8/Section2.html) <br>
+
+Ví dụ khác: [Section 3](Chuong8/Section3.html) 
+
+#### Bài viết (article)
+
+Phần tử article cũng có chức năng chia nội dung thành các vùng như phần tử section, tuy nhiên, có một điều khác là phần nội dung nằm trong phần tử article có thể tồn tại độc lập (không liên quan đến các nội dung khác), và có thể được sử dụng lại ở nơi khác. Ngay tên của phần tử đã phản ánh tính chất của nó, article là một bài viết.
+
+Ví dụ: [Article](Chuong8/Article.html)
+
+#### Bài viết gồm nhiều phần (article chứa section)
+
+Nếu một article gồm nhiều nội dung, có thể chia nội dung thành các section.
+
 
 
 
