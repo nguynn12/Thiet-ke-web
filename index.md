@@ -495,9 +495,7 @@ Mở tập tin index.html bằng Notepad, nhập lại đoạn thơ có dấu ti
 
 Phần này bạn sẽ thực hiện viết thêm một đoạn mã trang trí và định dạng cho trang web, theo hướng dẫn sau (đây chỉ là một trong nhiều cách để viết CSS).
 
-Trong phần tử head, tạo thêm phần tử style, sau đó viết các chỉ dẫn định dạng (style rule): Ví dụ
-
-[index2.html](Chuong6/Convit/index2.html)
+Trong phần tử head, tạo thêm phần tử style, sau đó viết các chỉ dẫn định dạng (style rule): Ví dụ: [index2.html](Chuong6/Convit/index2.html)
 
 ### Exercise 2. Adding an image
 
@@ -642,7 +640,7 @@ B. Để chạy mã nguồn HTML và cho ra kết quả <br>
 <mark>C. Để kiểm tra tính hợp lệ của mã HTML</mark> <br>
 D. Để đăng ký tên miền cho trang web <br>
    </div>
-</div>
+</div> <br>
 
 Giải thích: <br>
 
