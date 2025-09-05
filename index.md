@@ -425,19 +425,19 @@ B. Phần khai báo (doctype), phần tử html, phần tử header, phần tử
 C. Phần khai báo (doctype), phần tử html, phần tử head, phần tử link, phần tử body <br>
 D. Phần khai báo (doctype), phần tử html, phần tử p, phần tử title, phần tử body <br>
    </div>
-   
-   <div style="flex: 1;">
-Câu hỏi 4. Phát biểu nào sau đây là hợp lý: <br>
-<mark>A. HTML tạo ra cấu trúc và ngữ nghĩa cho phần nội dung trang web</mark>
-B. HTML thực hiện việc trang trí cho trang web
-C. HTML xử lý các tương tác của người dùng trên giao diện web
-D. HTML vừa tạo ra phần nội dung vừa thực hiện trang trí cho trang web
 
-Câu hỏi 5. Phát biểu nào đúng khi nói về `<!DOCTYPE html>` ? <br>
-A. Là một thẻ HTML
-<mark>B. Là một khai báo trong tài liệu HTML</mark>
-C. Là một phần tử HTML
-D. Là một chú thích trong HTML
+   <div style="flex: 1;">
+<b>Câu hỏi 4. Phát biểu nào sau đây là hợp lý:</b> <br>
+<mark>A. HTML tạo ra cấu trúc và ngữ nghĩa cho phần nội dung trang web</mark> <br>
+B. HTML thực hiện việc trang trí cho trang web <br>
+C. HTML xử lý các tương tác của người dùng trên giao diện web <br>
+D. HTML vừa tạo ra phần nội dung vừa thực hiện trang trí cho trang web <br>
+
+<b>Câu hỏi 5. Phát biểu nào đúng khi nói về `<!DOCTYPE html>` ?</b> <br>
+A. Là một thẻ HTML <br>
+<mark>B. Là một khai báo trong tài liệu HTML</mark> <br>
+C. Là một phần tử HTML <br>
+D. Là một chú thích trong HTML <br>
    </div>
 </div>
 Giải thích: <br>
