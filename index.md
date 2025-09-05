@@ -662,7 +662,7 @@ Câu 6: <br>
 
 ## 1.1.5. Bài tập thực hành
 
-### Bài 1. Viết lại các đoạn mã trong phần lý 
+### Bài 1. Viết lại các đoạn mã trong phần lý thuyết 
 
 #### 1.1.1. Đoạn văn và đề mục
 
@@ -684,7 +684,7 @@ Ví dụ: [Đề mục](Chuong7/DeMuc.html)
 
 Nếu bạn chỉ muốn tạo một đường kẻ ngang trên trang web thì bạn sẽ dùng border trong CSS chứ không nên sử dụng phần tử hr.
 
-Ví dụ: [Đánh dấu kết thúc một chủ đề](Chuong7/DanhDauKetThucChuDe.html)
+Ví dụ: [Đánh dấu kết thúc một chủ đề](Chuong7/MarkDEOATopic.html)
 
 #### 1.1.2. Danh sách
 
@@ -697,3 +697,40 @@ Danh sách không có thứ tự là một dãy các mục (item), trong đó t�
 Để tạo mỗi mục của danh sách, sử dụng phần tử li, viết tắt của list item (mục của danh sách).
 
 Ví dụ: [Danh sách không có thứ tự](Chuong7/UnorderedList.html)
+
+##### Danh sách có thứ tự
+
+Danh sách có thứ tự là một dãy các mục, trong đó tính trước sau của mỗi mục là quan trọng, ví dụ, danh sách các bước hướng dẫn để làm một công việc. Để thể hiện tính thứ tự của các mục, trình duyệt sẽ tự động sử dụng các số hoặc các chữ cái để gắn vào phía trước mỗi mục, giá trị của các số/chữ sẽ được tự động tăng cùng với các mục.
+
+Để tạo danh sách có thứ tự, sử dụng phần tử ol, viết tắt của ordered list (danh sách có thứ tự).
+
+Để tạo mỗi mục của danh sách, sử dụng phần tử li, viết tắt của list item (phần tử của danh sách).
+
+Ví dụ: [Danh sách có thứ tự](Chuong7/OrderedList.html)
+
+##### Thay đổi giá trị bắt đầu
+
+Với danh sách có thứ tự, giá trị bắt đầu luôn là 1, I, i, A hoặc a. Để thay đổi giá trị bắt đầu, sử dụng thuộc tính start.
+
+Ví dụ: [Thay đổi giá trị bắt đầu của DSCTT](Chuong7/ChangeStartingValue.html)
+
+##### Danh sách mô tả
+
+Danh sách mô tả (description list, definition list) là loại danh sách được sử dụng để biểu diễn dữ liệu theo kiểu từng cặp tên/giá trị (name/value), ví dụ: tên thuật ngữ/mô tả, câu hỏi/đáp án.
+
+Ví dụ: [Danh sách mô tả](Chuong7/DesList.html)
+
+##### Danh sách lồng nhau
+
+Một danh sách có thể chứa danh sách khác, miễn là danh sách con phải được đặt trong phần tử li của danh sách cha.
+
+Ví dụ: [Danh sách lồng nhau](Chuong7/NestedList.html)
+
+#### 1.1.3. Một số phần tử hiển thị nội dung khác
+
+##### Hiển thị một trích dẫn dài (long quotation)
+
+Để đánh dấu và hiển thị phần nội dung được trích dẫn dài (trích dẫn gồm nhiều hàng) từ nguồn khác, lời nhận xét của khách hàng (testimonial), và phần sao chép từ nguồn khác, bạn sẽ sử dụng phần tử blockquote. Nội dung bên trong phần tử blockquote nên được bọc lại bằng các phần tử HTML khác như p, heading, ol, ul, dl.
+
+Ví dụ: [Trích dẫn dài](Chuong7/LongQuotation.html)
+
