@@ -514,8 +514,7 @@ For example: [index.html](Chuong6/Blackgoose/index.html)
 Step 1. Open index.html if it isn’t open already. We’re going to use the style element to apply a very simple embedded style sheet to the page. This is just one of the ways to add a style sheet;
 
 Step 2. The style element is placed inside the document head. Start by adding the style element to the document as shown here:
-
-<pre><code>
+```
 <head>
 
 <meta charset="utf-8">
@@ -530,11 +529,11 @@ Step 2. The style element is placed inside the document head. Start by adding th
 
 </head>
 </code></pre>
-
+```
 Step 3. Next, type the following style rules within the style element just as you see them here. Don’t worry if you don’t know exactly what’s going on (although it’s fairly intuitive). You’ll learn all about style rules later.
 
 <pre><code>
-<style>
+&lt;style&gt;
 
 body {
 
@@ -570,7 +569,7 @@ h2 {
 
 }
 
-</style>
+&lt;/style&gt;
 </code></pre>
 
 Step 4. Now it’s time to save the file and take a look at it in the browser. It should look like the page in the following picture. If it doesn’t, go over the style sheet to make sure you didn’t miss a semicolon or a curly bracket. Look at the way the page looks with our styles compared to the browser’s default styles.
