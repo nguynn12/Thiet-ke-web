@@ -838,4 +838,27 @@ D. order list
 
 <br> <br>
 
-# Chương 8. 
+# Chương 8. HTML - Bố cục trang web
+
+
+
+# Chương 9. HTML - Form
+
+# Chương 10. Dự án HTML
+
+# Chương 11. CSS - Tổng quan
+
+# Chương 12. CSS - Sự kế thừa, xếp lớp
+
+# Chương 13. CSS - Định chuẩn CSS, box model và đơn vị đo
+
+# Chương 14. CSS - Phông chữ
+
+# Chương 15. Bộ chọn 
+
+
+
+
+
+
+
