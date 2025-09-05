@@ -734,3 +734,10 @@ Ví dụ: [Danh sách lồng nhau](Chuong7/NestedList.html)
 
 Ví dụ: [Trích dẫn dài](Chuong7/LongQuotation.html)
 
+##### Hiển thị văn bản được định dạng sẵn
+
+Như đã biết, khi biên dịch mã HTML để hiển thị, trình duyệt sẽ bỏ qua các khoảng trắng và các kí tự xuống hàng dư thừa. Vì vậy, với một số văn bản mà nhất thiết phải giữ các khoảng trắng, và các kí tự xuống hàng, ví dụ như một đoạn mã chương trình, một bài thơ, thì hãy sử dụng phần tử pre.
+
+Khi gặp phần tử pre, trình duyệt sẽ hiển thị ra đúng những gì đang có ở dạng mã nguồn, cả nội dung và hình thức trình bày, nghĩa là giữ nguyên tất cả các khoảng trắng và các kí tự xuống hàng. Phần tử pre thuộc kiểu hiển thị khối, phông chữ mặc định được sử dụng là loại phông mà các kí tự có độ rộng bằng nhau, thường được gọi là monospace (ví dụ Courier). Pre là viết tắt của preformatted text.
+
+Ví dụ: [Văn bản được định dạng sẵn](Chuong7/PreText.html)
