@@ -619,16 +619,22 @@ C. HTML document <br>
    
    <div style="flex: 1;">
 <b>Câu 4. Indicate whether each of these filenames is not an acceptable name for a web document.</b> <br>
-A. Sunflower.html
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Sunflower.html <br>
 B. index.htm
-C. Song_Lyrics.html
+         </div>
+         <div style="flex: 1;">
+C. Song_Lyrics.html <br>
 <mark>D. cooking home page.html</mark>
+         </div>
+      </div> <br>
 
 <b>Câu 5. One of the following markup examples is incorrect. Which one?</b> <br>
-A. <code><img src = "birthday.jpg"></code>
-<mark>B. <code><em>Congratulations!<em></code></mark>
-C. <code><a href="file.html">linked text</a></code>
-D. <code><p>This is a new paragraph</p></code>
+A. <code><img src = "birthday.jpg"></code> <br>
+<mark>B. <code><em>Congratulations!<em></code></mark> <br>
+C. <code><a href="file.html">linked text</a></code> <br>
+D. <code><p>This is a new paragraph</p></code> <br>
 
 <b>Câu 6. Trang web https://validator.w3.org/ dùng để làm gì?</b> <br>
 A. Để hiển thị tài liệu của W3C
