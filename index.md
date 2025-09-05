@@ -478,3 +478,5 @@ Ví dụ, đoạn mã HTML dưới đây, sẽ sử dụng thẻ `<br>` để ng
 `<img src="con-vit.png" alt="Logo Con Vit">`
 
 Khi đó, nội dung của index.html sẽ như sau:
+
+[index.html](Chuong6/index.html)
