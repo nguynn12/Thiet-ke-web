@@ -500,3 +500,11 @@ Trong phần tử head, tạo thêm phần tử style, sau đó viết các ch�
 [index2.html](Chuong6/index2.html)
 
 ### Exercise 2. Adding an image
+
+Step 1. If you’re working along, the first thing you’ll need to do is get a copy of the image file on your hard drive so you can see it in place when you open the file locally. <br> 
+You can get the image file by saving it right from the sample web page online at learningwebdesign.com/5e/materials/ch04/bistro. Right-click (or Control-click on a Mac) the goose image and select “Save to disk” (or similar) from the pop-up menu.<br> 
+Name the file blackgoose.png. Be sure to save it in the bistro folder with index.html.
+
+Step 2. Once you have the image, insert it at the beginning of the first-level heading by typing in the img element and its attributes as shown here: <br>
+`<h1><img src="blackgoose.png" alt="logo">Black Goose Bistro</h1>`
+
