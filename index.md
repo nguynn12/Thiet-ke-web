@@ -631,7 +631,7 @@ C. Song_Lyrics.html <br>
       </div> <br>
 
 <b>Câu 5. One of the following markup examples is incorrect. Which one?</b> <br>
-A. `<img src = "birthday.jpg"> <br>` <br>
+A. `<img src = "birthday.jpg">` <br> 
 <mark>B. `<em>Congratulations!<em>`</mark> <br>
 C. `<a href="file.html">linked text</a>` <br>
 D. `<p>This is a new paragraph</p>` <br> <br>
