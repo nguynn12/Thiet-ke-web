@@ -741,3 +741,12 @@ Như đã biết, khi biên dịch mã HTML để hiển thị, trình duyệt s
 Khi gặp phần tử pre, trình duyệt sẽ hiển thị ra đúng những gì đang có ở dạng mã nguồn, cả nội dung và hình thức trình bày, nghĩa là giữ nguyên tất cả các khoảng trắng và các kí tự xuống hàng. Phần tử pre thuộc kiểu hiển thị khối, phông chữ mặc định được sử dụng là loại phông mà các kí tự có độ rộng bằng nhau, thường được gọi là monospace (ví dụ Courier). Pre là viết tắt của preformatted text.
 
 Ví dụ: [Văn bản được định dạng sẵn](Chuong7/PreText.html)
+
+##### Phần tử figure và figcapion
+
+Phần tử figure là phần tử hiển thị kiểu khối, nó có thể chứa hình ảnh, đoạn mã, video, bảng, hoặc các loại dữ liệu khác, dùng để minh họa thêm cho nội dung được đề cập trong văn bản. Ví dụ sau khi trình bày về “cấu trúc của một tài liệu HTML gồm những thành phần nào”, để dễ hiểu bạn sẽ dùng phần tử figure để chèn thêm một cái hình, minh họa về cấu trúc của một tài liệu HTML. 
+
+Nếu cần thêm chú thích cho: hình ảnh, đoạn mã, video hoặc bảng, nằm trong phần tử figure thì sử dụng phần tử figcaption. Phần tử figcaption có thể nằm trước hoặc sau phần nội dung mà nó chú thích. Caption có nghĩa là chú thích (từ comment cũng có nghĩa là chú thích, nhưng là chú thích cho đoạn mã). Từ figure có nghĩa là hình ảnh, hình minh họa (thường được đánh số) trong các cuốn sách. Ví dụ, xem minh họa trong hình 10 (figure 10).
+
+Ví dụ: [Figure và Figcaption](Chuong7/FigureNFigcaption.html)
+
