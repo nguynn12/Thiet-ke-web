@@ -479,7 +479,7 @@ Ví dụ, đoạn mã HTML dưới đây, sẽ sử dụng thẻ `<br>` để ng
 
 Khi đó, nội dung của index.html sẽ như sau:
 
-[index.html](Chuong6/index.html)
+[index.html](Chuong6/Convit/index.html)
 
 #### 1.1.3. Hiển thị tiếng Việt
 
@@ -489,7 +489,7 @@ Khi đó, nội dung của index.html sẽ như sau:
 
 Mở tập tin index.html bằng Notepad, nhập lại đoạn thơ có dấu tiếng Việt, khi lưu, trong mục Encoding nhớ chọn là UTF-8. Mở trang web bằng trình duyệt, sẽ thấy đoạn thơ đã có dấu tiếng Việt.
 
-[index1.html](Chuong6/index1.html)
+[index1.html](Chuong6/Convit/index1.html)
 
 #### 1.1.4. Thêm CSS cho trang web
 
@@ -497,7 +497,7 @@ Phần này bạn sẽ thực hiện viết thêm một đoạn mã trang trí v
 
 Trong phần tử head, tạo thêm phần tử style, sau đó viết các chỉ dẫn định dạng (style rule): Ví dụ
 
-[index2.html](Chuong6/index2.html)
+[index2.html](Chuong6/Convit/index2.html)
 
 ### Exercise 2. Adding an image
 
