@@ -431,7 +431,7 @@ D. Phần khai báo (doctype), phần tử html, phần tử p, phần tử titl
 <mark>A. HTML tạo ra cấu trúc và ngữ nghĩa cho phần nội dung trang web</mark> <br>
 B. HTML thực hiện việc trang trí cho trang web <br>
 C. HTML xử lý các tương tác của người dùng trên giao diện web <br>
-D. HTML vừa tạo ra phần nội dung vừa thực hiện trang trí cho trang web <br>
+D. HTML vừa tạo ra phần nội dung vừa thực hiện trang trí cho trang web <br> <br>
 
 <b>Câu hỏi 5. Phát biểu nào đúng khi nói về `<!DOCTYPE html>` ?</b> <br>
 A. Là một thẻ HTML <br>
