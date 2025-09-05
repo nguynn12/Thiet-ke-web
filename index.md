@@ -756,3 +756,9 @@ Ví dụ: [Figure và Figcaption](Chuong7/FigureNFigcaption.html)
 
 [Menu.html](Chuong7/Menu.html)
 
+### Bài tập 3. Tạo breadcrumbs như hình sau.
+
+[![Ảnh](Image/7.2.png)](Image/7.2.png)
+
+[Breadcrumbs.html](Chuong7/BreadCrumbs.html)
+
