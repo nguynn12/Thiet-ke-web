@@ -580,3 +580,78 @@ Step 4. Now it’s time to save the file and take a look at it in the browser. I
 
 ### Bài 4. Như đã biết, phần tử head chứa các thông tin mô tả cho trang web, ví dụ tiêu đề (title), từ khóa, tác giả; tập tin định dạng (CSS), đoạn mã JavaScript, các thông tin này không được hiển thị ra cửa sổ trình duyệt, còn phần body chứa toàn bộ nội dung mà chúng ta muốn hiển thị ra cửa sổ trình duyệt. Bài tập này sẽ thêm một số thông tin mô tả cho tài liệu HTML.
 
+## 1.1.8. Câu hỏi ôn tập
+
+<div style="display: flex; gap: 20px;">
+   <div style="flex: 1;">
+<b>Câu 1. Trong UTF-8, UTF là viết tắt của các từ nào?</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. Uniform Text Format <br>
+<mark>B. Unicode Transformation Format</mark>
+         </div>
+         <div style="flex: 1;">
+C. Uniform Transformation Format <br>
+D. Unicode Text Format
+         </div>
+      </div> <br>
+
+<b>Câu 2. Metadata is "data that provides ________about other data". In other words, it is "data about data".</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. format </div>
+<div style="flex: 1;"><mark>B. information</mark> </div>
+<div style="flex: 1;">C. structure </div>
+<div style="flex: 1;">D. standard </div>
+      </div> <br>
+
+<b>Câu 3. Technically, an ________is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag (either opening or closing) is used to mark the start or end of an element.</b> <br>
+      <div style="display: flex; gap: 20px;">
+         <div style="flex: 1;">
+A. HTML attribute <br>
+B. HTML tag
+         </div>
+         <div style="flex: 1;">
+C. HTML document <br>
+<mark>D. HTML element</mark>
+         </div>
+      </div>
+   </div>
+   
+   <div style="flex: 1;">
+<b>Câu 4. Indicate whether each of these filenames is not an acceptable name for a web document.</b> <br>
+A. Sunflower.html
+B. index.htm
+C. Song_Lyrics.html
+<mark>D. cooking home page.html</mark>
+
+<b>Câu 5. One of the following markup examples is incorrect. Which one?</b> <br>
+A. <code><img src = "birthday.jpg"></code>
+<mark>B. <code><em>Congratulations!<em></code></mark>
+C. <code><a href="file.html">linked text</a></code>
+D. <code><p>This is a new paragraph</p></code>
+
+<b>Câu 6. Trang web https://validator.w3.org/ dùng để làm gì?</b> <br>
+A. Để hiển thị tài liệu của W3C
+B. Để chạy mã nguồn HTML và cho ra kết quả
+<mark>C. Để kiểm tra tính hợp lệ của mã HTML</mark>
+D. Để đăng ký tên miền cho trang web
+   </div>
+</div>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: <br>
+
+<br> <br>
+
+# Chương 7. HTML - Hiển thị văn bản
