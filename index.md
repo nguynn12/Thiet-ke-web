@@ -377,4 +377,19 @@ Bước 3. [Ngày đầu tiên đi học 1](Chuong5/NDTDH.html)
 
 Bước 4. [Ngày đầu tiên đi học 2](Chuong5/NDTDH1.html) <br> <em>Mở mã nguồn để quan sát</em>
 
-Bước 5. [index.html](Chuong5/index1.html)
+Bước 5. [index1.html](Chuong5/index1.html)
+
+### Exercise 2. Entering content
+
+Step 4. You should see some text on the screen. [index2.html](Chuong5/index2.html) 
+
+### Exercise 3. Adding minimal structure
+
+Step 5. Save the document in the bistro directory, so that it overwrites the old version. Open the file in the browser or hit Refresh or Reload if it is open already. [index3.html](Chuong5/index3.html)
+
+### Exercise 4. Defining text elements
+
+Step 6. Now that we’ve marked up the document, let’s save it as we did before, and open (or reload) the page in the browser. You should see a page that looks much like the one in the following figure. If it doesn’t, check your markup to be sure that you aren’t missing any angle brackets or a slash in a closing tag. [index4.html](Chuong5/index4.html)
+
+## 1.1.8. Câu hỏi ôn tập
+
