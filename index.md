@@ -867,9 +867,7 @@ Ví dụ: [Footer](Chuong8/Footer.html)
 Phần tử section dùng để chia nội dung thành các vùng theo các chủ đề khác nhau. Mỗi phần tử section thường bao gồm heading (h1-h6) và phần nội dung. Có thể hiểu nôm na, phần tử section được sử dụng để liệt kê nội dung, giống như vai trò liệt kê các mục trong danh sách của phần tử li.
 
 Ví dụ: [Section 1](Chuong8/Section1.html) <br>
-
 Ví dụ khác: [Section 2](Chuong8/Section2.html) <br>
-
 Ví dụ khác: [Section 3](Chuong8/Section3.html) 
 
 #### Bài viết (article)
@@ -881,6 +879,32 @@ Ví dụ: [Article](Chuong8/Article.html)
 #### Bài viết gồm nhiều phần (article chứa section)
 
 Nếu một article gồm nhiều nội dung, có thể chia nội dung thành các section.
+
+Ví dụ: [Article chứa Section](Chuong8/ArticleSrrdSection.html)
+
+#### Một vùng chứa nhiều bài viết (section chứa article)
+
+Ngược lại, một section cũng có thể chứa nhiều article.
+
+Ví dụ: [Section chứa Article](Chuong8/SectionSrrdArticle.html)
+
+#### Thông tin bổ trợ (aside)
+
+Phần tử aside được sử dụng để chứa các thông tin có liên quan đến nội dung chính, được đặt bên cạnh nội dung chính (trên, dưới, trái, phải). Aside có nghĩa là bổ sung thêm. Về mặt trực quan có thể hình dung phần tử aside giống với sidebar (thanh bên) trên giao diện web, tuy nhiên, hai cái này không phải là một. Aside mang tính bổ trợ về mặt ngữ nghĩa, trong khi sidebar có nghĩa là đặt ở bên cạnh khi hiển thị.
+
+Ví dụ: [Aside](Chuong8/Aside.html)
+
+#### Điều hướng (navigation)
+
+Phần tử nav được sử dụng để chứa các liên kết (link) điều hướng, thường được sử dụng để tạo trình đơn (menu) ngang, dọc. Lưu ý, không phải mọi liên kết đều phải đặt trong phần từ nav. Nav là viết rút gọn của navigation.
+
+Ví dụ: [Navigation](Chuong8/Navigation.html)
+
+#### Thông tin liên hệ (address)
+
+Phần tử address được sử dụng để chứa các thông tin liên lạc với tác giả của bài viết hoặc người đăng bài viết. Phần tử này thường được để ở cuối của tài liệu, cuối vùng hoặc cuối bài viết. Phần tử address nên đặt trong phần tử footer.
+
+Ví dụ: [Address](Chuong8/Address.html)
 
 
 
