@@ -634,7 +634,7 @@ C. Song_Lyrics.html <br>
 A. `<img src = "birthday.jpg"> <br>` <br>
 <mark>B. `<em>Congratulations!<em>`</mark> <br>
 C. `<a href="file.html">linked text</a>` <br>
-D. `<p>This is a new paragraph</p>` <br>
+D. `<p>This is a new paragraph</p>` <br> <br>
 
 <b>Câu 6. Trang web [https://validator.w3.org/](https://validator.w3.org/) dùng để làm gì?</b> <br>
 A. Để hiển thị tài liệu của W3C <br>
