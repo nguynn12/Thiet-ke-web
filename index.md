@@ -433,16 +433,48 @@ B. HTML thực hiện việc trang trí cho trang web <br>
 C. HTML xử lý các tương tác của người dùng trên giao diện web <br>
 D. HTML vừa tạo ra phần nội dung vừa thực hiện trang trí cho trang web <br> <br>
 
-<b>Câu hỏi 5. Phát biểu nào đúng khi nói về `<!DOCTYPE html>` ?</b> <br>
+<b>Câu hỏi 5. Phát biểu nào đúng khi nói về <code><!DOCTYPE html></code> ?</b> <br>
 A. Là một thẻ HTML <br>
 <mark>B. Là một khai báo trong tài liệu HTML</mark> <br>
 C. Là một phần tử HTML <br>
 D. Là một chú thích trong HTML <br>
    </div>
-</div>
+</div> <br>
+
 Giải thích: <br>
+
 Câu 1: <br>
+
 Câu 2: <br>
+
 Câu 3: <br>
+
 Câu 4: <br>
+
 Câu 5: <br>
+
+<br> <br>
+
+# Chương 6. HTML_Hoàn thiện trang web đơn giản
+
+## 1.1.7. Bài tập thực hành
+
+### Bài 1. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### 1.1.1. Phần tử rỗng
+
+Ví dụ, đoạn mã HTML dưới đây, sẽ sử dụng thẻ `<br>` để ngắt hàng và thẻ `<hr>` để tạo một đường kẻ ngang.
+
+[Ngày đầu tiên đi học](Chuong6/NDTDH.html)
+
+#### 1.1.2. Thuộc tính
+
+- Chuẩn bị sẵn một tập tin hình ảnh (.jpg, .png, .jpeg, .gif), để trong cùng thư mục với tập tin index.html. Ví dụ tập tin hình ảnh có tên là con-vit.png.
+
+- Mở tập tin index.html bằng Notepad
+
+- Chèn thêm dòng mã này vào ngay sau thẻ `<body>`: 
+
+`<img src="con-vit.png" alt="Logo Con Vit">`
+
+Khi đó, nội dung của index.html sẽ như sau:
