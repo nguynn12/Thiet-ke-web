@@ -631,16 +631,16 @@ C. Song_Lyrics.html <br>
       </div> <br>
 
 <b>Câu 5. One of the following markup examples is incorrect. Which one?</b> <br>
-A. <code><img src = "birthday.jpg"></code> <br>
-<mark>B. <code><em>Congratulations!<em></code></mark> <br>
-C. <code><a href="file.html">linked text</a></code> <br>
-D. <code><p>This is a new paragraph</p></code> <br>
+A. `<img src = "birthday.jpg"> <br>` <br>
+<mark>B. `<em>Congratulations!<em>`</mark> <br>
+C. `<a href="file.html">linked text</a>` <br>
+D. `<p>This is a new paragraph</p>` <br>
 
-<b>Câu 6. Trang web https://validator.w3.org/ dùng để làm gì?</b> <br>
-A. Để hiển thị tài liệu của W3C
-B. Để chạy mã nguồn HTML và cho ra kết quả
-<mark>C. Để kiểm tra tính hợp lệ của mã HTML</mark>
-D. Để đăng ký tên miền cho trang web
+<b>Câu 6. Trang web [https://validator.w3.org/](https://validator.w3.org/) dùng để làm gì?</b> <br>
+A. Để hiển thị tài liệu của W3C <br>
+B. Để chạy mã nguồn HTML và cho ra kết quả <br>
+<mark>C. Để kiểm tra tính hợp lệ của mã HTML</mark> <br>
+D. Để đăng ký tên miền cho trang web <br>
    </div>
 </div>
 
