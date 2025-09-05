@@ -750,3 +750,9 @@ Nếu cần thêm chú thích cho: hình ảnh, đoạn mã, video hoặc bảng
 
 Ví dụ: [Figure và Figcaption](Chuong7/FigureNFigcaption.html)
 
+### Bài tập 2. Sử dụng ul/li hoặc ol/li để tạo menu như hình dưới đây (khung màu xanh).
+
+[![Ảnh](Image/7.1.jpg)](Image/7.1.jpg)
+
+[Menu.html](Chuong7/Menu.html)
+
