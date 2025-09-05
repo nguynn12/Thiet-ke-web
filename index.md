@@ -659,3 +659,41 @@ Câu 6: <br>
 <br> <br>
 
 # Chương 7. HTML - Hiển thị văn bản
+
+## 1.1.5. Bài tập thực hành
+
+### Bài 1. Viết lại các đoạn mã trong phần lý 
+
+#### 1.1.1. Đoạn văn và đề mục
+
+##### Đề mục
+
+Một văn bản không chỉ có các đoạn, hình ảnh, mà còn có hệ thống đề mục (hay hệ thống tiêu đề).
+
+Đề mục (heading) là một từ, cụm từ, hoặc kí hiệu, giúp người đọc có thể tìm kiếm và định vị được thông tin.
+
+Hệ thống đề mục thường gồm nhiều cấp khác nhau, thể hiện cấu trúc, bố cục, hay bộ khung (outline) của một văn bản. Để dễ hiểu, hãy liên tưởng tới hệ thống heading trong Microsoft Word.
+
+Trong thực tế, nên sử dụng phần tử h1 cho đề mục mức cao nhất, sau đó tùy theo nội dung văn bản để sử dụng các đề mục mức thấp hơn. 
+
+Ví dụ: [Đề mục](Chuong7/DeMuc.html)
+
+##### Đánh dấu kết thúc một chủ đề
+
+Để đánh dấu kết thúc một chủ đề/ý tưởng và chuyển sang chủ đề/ý tưởng khác, sử dụng phần tử hr, phần tử này sẽ tạo một đường kẻ ngang (horizontal rule) giữa hai chủ đề/ý tưởng.
+
+Nếu bạn chỉ muốn tạo một đường kẻ ngang trên trang web thì bạn sẽ dùng border trong CSS chứ không nên sử dụng phần tử hr.
+
+Ví dụ: [Đánh dấu kết thúc một chủ đề](Chuong7/DanhDauKetThucChuDe.html)
+
+#### 1.1.2. Danh sách
+
+##### Danh sách không có thứ tự
+
+Danh sách không có thứ tự là một dãy các mục (item), trong đó tính trước sau của mỗi mục là không quan trọng. Mỗi mục thường được trình duyệt đánh dấu bằng một kí tự đầu dòng (dấu đầu dòng) (bullet). Trong thực tế, phần lớn các danh sách sẽ thuộc loại này.
+
+Để tạo danh sách không có thứ tự, sử dụng phần tử ul, viết tắt của unordered list (danh sách không có thứ tự).
+
+Để tạo mỗi mục của danh sách, sử dụng phần tử li, viết tắt của list item (mục của danh sách).
+
+Ví dụ: [Danh sách không có thứ tự](Chuong7/UnorderedList.html)
