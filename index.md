@@ -1008,6 +1008,10 @@ Mỗi label được kết hợp với duy nhất một control, việc kết h�
 
 - Cách hai, kết hợp tường minh (explicit association), sử dụng thuộc tính for của label để tham chiếu tới id của control. Cách này có ưu điểm là tách biệt hai phần tử label và input, giúp dễ dàng thực hiện căn chỉnh, định dạng bằng CSS. Ví dụ: [Kết hợp tường minh trong label](Chuong9/Label2.html)
 
+#### Phần tử fieldset và legend
+
+Phần tử fieldset được sử dụng để nhóm các control có liên quan đến nhau, để chú thích cho nhóm các control này sử dụng phần tử legend. Ví dụ: [Fieldset và Legend](Chuong9/FieldsetNLegend.html)
+
 
 
 # Chương 10. Dự án HTML
