@@ -906,16 +906,63 @@ Phần tử address được sử dụng để chứa các thông tin liên lạ
 
 Ví dụ: [Address](Chuong8/Address.html)
 
-### Bài tập 2. Sử dụng các phần tử HTML đã học để tạo phần nội dung của một trang báo. Ví dụ, tuoitre.vn.
+### Bài 2. Sử dụng các phần tử HTML đã học để tạo phần nội dung của một trang báo. Ví dụ, tuoitre.vn.
 
 [Trang báo](Chuong8/TrangBao.html)
 
-### Bài tập 3. Sử dụng các phần tử HTML đã học, để tạo phần nội dung của một trang dạy về công nghệ. Ví dụ, https://www.w3schools.com/html/default.asp
+### Bài 3. Sử dụng các phần tử HTML đã học, để tạo phần nội dung của một trang dạy về công nghệ. Ví dụ, https://www.w3schools.com/html/default.asp
 
 [Trang nội dung dạy về công nghệ](Chuong8/W3School.html)
 
+## 1.1.4. Câu hỏi ôn tập
 
+<div style="display: flex; gap: 20px;">
+   <div style="flex: 1;">
+<b>Question 1. The content inside the ______ element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;"><mark>A. main</mark> </div>
+<div style="flex: 1;">B. article </div>
+<div style="flex: 1;">C. section </div>
+<div style="flex: 1;">D. header </div>
+      </div> <br>
 
+<b>Question 2. The ______ element represents a container for introductory content or a set of navigational links.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. head </div>
+<div style="flex: 1;">B. footer </div>
+<div style="flex: 1;"><mark>C. header</mark> </div>
+<div style="flex: 1;">D. article </div>
+      </div> <br>
+
+<b>CQuestion 3. The _______ element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. aside </div>
+<div style="flex: 1;">B. main </div>
+<div style="flex: 1;">C. section </div>
+<div style="flex: 1;"><mark>D. article</mark> </div>
+      </div>
+   </div>
+   
+   <div style="flex: 1;">
+<b>Question 4. The ______  element identifies content that is separate from, but tangentially related to, the surrounding content. In print, its equivalent is a sidebar, but it couldn’t be called “sidebar” because putting something on the “side” is a presentational description, not semantic.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. main </div>
+<div style="flex: 1;"><mark>B. aside</mark> </div>
+<div style="flex: 1;">C. section </div>
+<div style="flex: 1;">D. article </div>
+      </div> <br>
+
+<b>Question 5. The ______ element is used to create an area for contact information for the author or maintainer of the document. It is generally placed at the end of the document or in a section or article within a document.</b> <br>
+      <div style="display: flex; gap: 20px;">
+<div style="flex: 1;">A. footer </div>
+<div style="flex: 1;">B. header </div>
+<div style="flex: 1;">C. aside </div>
+<div style="flex: 1;"><mark>D. address</mark> </div>
+      </div>
+   </div>
+</div>
+
+<br> <br>
 
 # Chương 9. HTML - Form
 
