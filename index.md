@@ -834,7 +834,21 @@ D. order list
          </div>
       </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: <br>
 
 <br> <br>
 
@@ -960,11 +974,39 @@ Ví dụ: [Address](Chuong8/Address.html)
 <div style="flex: 1;"><mark>D. address</mark> </div>
       </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: <br>
 
 <br> <br>
 
 # Chương 9. HTML - Form
+
+## 1.1.3. Bài tập và thực hành
+
+### Bài 1. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### Phần tử label
+
+Khi quan sát một ô nhập liệu trên trình duyệt, ví dụ ô nhập họ tên, chúng ta sẽ thấy chữ “Họ tên” và ô nhập liệu nằm cạnh nhau. Tuy nhiên, trong mã nguồn, đây là hai phần tử riêng biệt. Trong đó, label chứa phần văn bản để mô tả ngữ nghĩa cho một control khác.
+
+Mỗi label được kết hợp với duy nhất một control, việc kết hợp này có thể thực hiện bằng hai cách.
+
+- Cách một, kết hợp ngầm (implicit association) bằng cách đặt control và mô tả của nó trong phần tử label. Ví dụ: [Kết hợp ngầm trong label](Chuong9/Label1.html)
+
+
 
 # Chương 10. Dự án HTML
 
