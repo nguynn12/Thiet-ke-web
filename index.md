@@ -906,6 +906,14 @@ Phần tử address được sử dụng để chứa các thông tin liên lạ
 
 Ví dụ: [Address](Chuong8/Address.html)
 
+### Bài tập 2. Sử dụng các phần tử HTML đã học để tạo phần nội dung của một trang báo. Ví dụ, tuoitre.vn.
+
+[Trang báo](Chuong8/TrangBao.html)
+
+### Bài tập 3. Sử dụng các phần tử HTML đã học, để tạo phần nội dung của một trang dạy về công nghệ. Ví dụ, https://www.w3schools.com/html/default.asp
+
+[Trang nội dung dạy về công nghệ](Chuong8/W3School.html)
+
 
 
 
