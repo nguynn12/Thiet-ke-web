@@ -1012,7 +1012,9 @@ Mỗi label được kết hợp với duy nhất một control, việc kết h�
 
 Phần tử fieldset được sử dụng để nhóm các control có liên quan đến nhau, để chú thích cho nhóm các control này sử dụng phần tử legend. Ví dụ: [Fieldset và Legend](Chuong9/FieldsetNLegend.html)
 
+### Exercise 2. Here’s the scenario. You are the web designer in charge of creating an online pizza ordering form for Black Goose Bistro. The owner has handed you a sketch (see the below figure) of the form’s content. There are sticky notes from the programmer with information about the script and variable names you need to use.
 
+[![Ảnh](Image/9.1.jpg)](Image/9.1.jpg)
 
 # Chương 10. Dự án HTML
 
