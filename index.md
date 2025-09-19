@@ -1024,13 +1024,55 @@ Phần tử fieldset được sử dụng để nhóm các control có liên qua
 
 # Chương 13. CSS - Định chuẩn CSS, box model và đơn vị đo
 
+## 1.6. Bài tập và thực hành
+
+### Bài 1a. Viết lại các đoạn mã trong phần lý thuyết
+
+#### Một số cách định chuẩn CSS
+
+- Cách 1: Đặt lại giá trị của thuộc tính căn lề (margin) và dãn biên (padding) bằng 0 cho mọi phần tử (ký hiệu *). Ví dụ: [Định chuẩn cách 1](Chuong13/Normalize1.html)
+
+- Cách 2: Sử dụng các đoạn mã định chuẩn được tạo sẵn. Ví dụ: [Định chuẩn cách 2](Chuong13/Normalize2.html)
+
+- Cách 3: Tự tạo ra bộ định chuẩn. Sử dụng bộ định chuẩn normalize.css. Ví dụ: [Định chuẩn 3](Chuong13/Normalize2.html)
+
+#### Box model
+
+CSS sử dụng mô hình cái hộp (box model) để định dạng và hiển thị các phần tử HTML. Theo mô hình này, mỗi phần tử HTML được xem như một hình chữ nhật gồm: Vị trí hiển thị (tọa độ x, y), chiều rộng, chiều cao, màu nền, padding (dãn biên), Border (viền), Margin (căn lề).
+
+Tất cả phần tử (trừ phần trong `<head>`) đều có hộp riêng, bất kể là kiểu inline hay block. Các hộp có thể lồng nhau theo cấu trúc cha-con của HTML.
+
+Ví dụ: Một đoạn mã HTML có thể gồm 5 hộp lồng nhau, minh họa rõ cách hoạt động của box model. [Box model](Chuong13/Boxmodel.html)
+
+#### Đơn vị đo kích thước trong CSS
+
+##### % (phần trăm)
+
+Là con số, theo sau là kí hiệu %; được tính bằng cách lấy giá trị % nhân với kích thước thuộc tính của phần tử cha nó (hoặc mức cao hơn). Một số loại thuộc tính có thể sử dụng % như width, height, margin, padding và font-size. 
+
+Trong thiết kế bố cục (layout), đơn vị đo này giúp cho trang web luôn giữ được tỉ lệ cố định, sự cân đối giữa các thành phần, khi người dùng thay đổi kích thước cửa sổ trình duyệt.
+
+Ví dụ: [Đơn vị đo phần trăm %](Chuong13/Percentage.html)
+
+##### em
+
+Đơn vị em trong CSS
+Là đơn vị đo tương đối, dựa trên kích thước font chữ của phần tử hiện hành.
+
+Ví dụ: nếu font-size là 16px thì 1em = 16px; nếu là 12px thì 1em = 12px.
+
+Trong CSS, em đại diện cho độ cao của một dòng chữ, không phải độ rộng của chữ "M" như trong soạn thảo truyền thống.
+
+Lưu ý: Không nhầm lẫn giữa đơn vị em và thẻ `<em>` trong HTML – chúng hoàn toàn khác nhau.
+
+Ứng dụng: Dùng em cho các thuộc tính như: font-size, margin, padding, line-height, v.v. Giúp giao diện linh hoạt, duy trì tỷ lệ hợp lý khi thay đổi kích thước văn bản hoặc trình duyệt.
+
+Ví dụ: [Đơn vị em trong CSS](Chuong13/Em.html)
+
+##### rem
+
+
+
 # Chương 14. CSS - Phông chữ
 
 # Chương 15. Bộ chọn 
-
-
-
-
-
-
-
