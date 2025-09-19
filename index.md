@@ -1052,7 +1052,7 @@ Là con số, theo sau là kí hiệu %; được tính bằng cách lấy giá 
 
 Trong thiết kế bố cục (layout), đơn vị đo này giúp cho trang web luôn giữ được tỉ lệ cố định, sự cân đối giữa các thành phần, khi người dùng thay đổi kích thước cửa sổ trình duyệt.
 
-Ví dụ: [Đơn vị đo phần trăm %](Chuong13/Percentage.html)
+Ví dụ: [Đơn vị đo phần trăm % trong CSS](Chuong13/Percentage.html)
 
 ##### em
 
@@ -1070,6 +1070,14 @@ Lưu ý: Không nhầm lẫn giữa đơn vị em và thẻ `<em>` trong HTML �
 Ví dụ: [Đơn vị em trong CSS](Chuong13/Em.html)
 
 ##### rem
+
+rem là viết tắt của "root em", tức là đơn vị đo dựa trên kích thước font của phần tử gốc <html>.
+
+Nếu html { font-size: 16px } thì 1rem = 16px, bất kể phần tử đang ở cấp nào trong cây DOM.
+
+Ví dụ: [Đơn vị rem trong CSS](Chuong13/Rem.html)
+
+### Bài 1b.  Đây là tài liệu HTML trong tập tin có tên cooking.html. Bạn có thể lấy bất kỳ hình ảnh nào để thay thế cho salads.jpg (với kích thước 300 x 200px).
 
 
 
