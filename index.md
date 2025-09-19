@@ -1079,6 +1079,9 @@ Ví dụ: [Đơn vị rem trong CSS](Chuong13/Rem.html)
 
 ### Bài 1b.  Đây là tài liệu HTML trong tập tin có tên cooking.html. Bạn có thể lấy bất kỳ hình ảnh nào để thay thế cho salads.jpg (với kích thước 300 x 200px).
 
+Đây là trang web được hiển thị trên trình duyệt, khi chúng ta chưa định kiểu (style, viết mã CSS) cho nó.
+[cooking.html](Chuong13/cooking.html)
+
 
 
 # Chương 14. CSS - Phông chữ
