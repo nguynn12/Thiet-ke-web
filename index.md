@@ -1121,8 +1121,63 @@ float: right;
 
 }
 ```
-Sau khi thực hiện các định dạng trên, trang web kết quả sẽ giống hình dưới đây.
+Sau khi thực hiện các định dạng trên, [đây là trang web kết quả](Chuong13/cookingnew.html)
 
+### Exercise 1c.
+The instructions are similar to 1b, the only difference between two exercises is the language used.
+
+## 1.7. Câu hỏi ôn tập
+
+Câu 1. CSS là viết tắt của các từ nào?
+
+A. Code Style Sheets
+B. Cascading Style Sheets
+C. Cascading Style Source
+D. Code Style Source
+
+Câu 2. Quan sát đoạn mã p { color: red; font-size: 54px; }, theo thuật ngữ của CSS, phát biểu nào sau đây không đúng?
+
+A. p là bộ chọn (selector)
+B. Đoạn mã trên là một chỉ dẫn định dạng (style rule)
+C. color là thuộc tính (property)
+D. Đoạn mã trên là một khai báo (declaration)
+
+Câu 3. Bạn có thể viết mã CSS ở đâu? Phát biểu nào sau đây không đúng?
+
+A. Viết ở trong phần tử HTML, sử dụng thuộc tính style
+B. Viết ở ngoài tài liệu HTML, trong tập tin .css, sử dụng phần tử link để liên kết
+C. Viết ở trong tài liệu HTML, sử dụng phần tử <script>
+D. Viết ở trong tài liệu HTML, sử dụng phần tử <style>
+
+Câu 4. Theo kĩ thuật xếp lớp (cascading) trong CSS, loại mã CSS nào có độ ưu tiên cao nhất ?
+
+A. User agent style sheet
+
+B. User style sheet
+
+C. Author style sheet
+
+D. Cả ba có độ ưu tiên như nhau
+
+Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?
+
+<style>
+
+p { color: purple; }
+
+p { color: green; }
+
+p { color: gray; }
+
+</style>
+
+A. Tím
+
+B. Xanh
+
+C. Xám
+
+D. Trắng
 
 # Chương 14. CSS - Phông chữ
 
