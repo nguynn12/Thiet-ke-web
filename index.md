@@ -1080,8 +1080,48 @@ Ví dụ: [Đơn vị rem trong CSS](Chuong13/Rem.html)
 ### Bài 1b.  Đây là tài liệu HTML trong tập tin có tên cooking.html. Bạn có thể lấy bất kỳ hình ảnh nào để thay thế cho salads.jpg (với kích thước 300 x 200px).
 
 Đây là trang web được hiển thị trên trình duyệt, khi chúng ta chưa định kiểu (style, viết mã CSS) cho nó.
-[cooking.html](Chuong13/cooking.html)
+[cooking.html](Chuong13/cookingold.html)
 
+Thêm định dạng cho phần tiêu đề và đoạn văn
+```
+<style>
+    h1 {
+        color: green;
+    }
+
+    p {
+        font-size: large;
+        font-family: sans-serif;
+    }
+</style>
+```
+Định dạng phần tử h1 có màu gray, xem kết quả trên trình duyệt. Sau đỏ chuyển nó thành màu blue, và cuối cùng để nó có màu orange.
+
+Tương tự, thêm một chỉ dẫn CSS để phần tử h2 có màu orange.
+
+Sử dụng khai báo này để định dạng phần tử đoạn văn bản (p) cách lề trái (left margin) 100 pixel:
+
+`margin-left: 100px;`
+
+Lưu ý, bạn có thể thêm khai báo mới này vào chỉ dẫn có sẵn của phần tử p.
+
+Tương tự, thêm khai báo để căn cho tiêu đề h2 cách lề trái 100 pixel.
+
+Thêm đường biên dưới (border of bottom), có độ dày 1 pixel cho phần tử h1 bằng khai báo sau:
+
+`border-bottom: 1px solid orange;`
+
+Di chuyển hình ảnh sang phía phải (căn phải), và cho phép văn bản bọc quanh nó bằng thuộc tính float. Dạng viết rút gọn của thuộc tính margin cho biết, chỉ dẫn này sẽ không thêm khoảng trắng ở phía trên và dưới của ảnh; thêm một khoảng trắng 12px phía trái và phía phải của ảnh. 
+```
+img {
+
+float: right;
+
+      margin: 0 12px;
+
+}
+```
+Sau khi thực hiện các định dạng trên, trang web kết quả sẽ giống hình dưới đây.
 
 
 # Chương 14. CSS - Phông chữ
