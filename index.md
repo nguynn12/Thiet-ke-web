@@ -1159,8 +1159,8 @@ Câu 3. Bạn có thể viết mã CSS ở đâu? Phát biểu nào sau đây kh
 
 A. Viết ở trong phần tử HTML, sử dụng thuộc tính style
 B. Viết ở ngoài tài liệu HTML, trong tập tin .css, sử dụng phần tử link để liên kết
-C. Viết ở trong tài liệu HTML, sử dụng phần tử <script>
-D. Viết ở trong tài liệu HTML, sử dụng phần tử <style>
+C. Viết ở trong tài liệu HTML, sử dụng phần tử `<script>`
+D. Viết ở trong tài liệu HTML, sử dụng phần tử `<style>`
 
 Câu 4. Theo kĩ thuật xếp lớp (cascading) trong CSS, loại mã CSS nào có độ ưu tiên cao nhất ?
 
@@ -1173,7 +1173,7 @@ C. Author style sheet
 D. Cả ba có độ ưu tiên như nhau
 
 Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?
-
+```
 <style>
 
 p { color: purple; }
@@ -1182,10 +1182,8 @@ p { color: green; }
 
 p { color: gray; }
 
-p { color: red; }
-
 </style>
-
+```
 A. Tím
 
 B. Xanh
