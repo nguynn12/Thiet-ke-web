@@ -1,3 +1,15 @@
+<style>
+   .chia {
+      display: flex;
+      gap: 20px;
+   }
+
+   .cot {
+      flex: 1;
+   }
+
+</style>
+
 # Chương 1. Nghề làm web
 
 ## 1.3. Bài tập và thực hành
