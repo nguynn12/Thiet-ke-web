@@ -82,7 +82,6 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 ## 1.5. Câu hỏi ôn tập
 
 <div class="chia">
-
    <div class="cot">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
       <div class="chia">
@@ -1141,38 +1140,54 @@ The instructions are similar to 1b, the only difference between two exercises is
 
 ## 1.7. Câu hỏi ôn tập
 
-Câu 1. CSS là viết tắt của các từ nào?
-
-A. Code Style Sheets
-B. Cascading Style Sheets
-C. Cascading Style Source
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. CSS là viết tắt của các từ nào?</b> <br>
+      <div class="chia">
+         <div class="cot">
+A. Code Style Sheets <br>
+<mark>B. Cascading Style Sheets</mark>
+         </div>
+         <div class="cot">
+C. Cascading Style Source <br>
 D. Code Style Source
+         </div>
+      </div> <br>
 
-Câu 2. Quan sát đoạn mã p { color: red; font-size: 54px; }, theo thuật ngữ của CSS, phát biểu nào sau đây không đúng?
-
-A. p là bộ chọn (selector)
+<b>Câu 2. Quan sát đoạn mã `p { color: red; font-size: 54px; }`, theo thuật ngữ của CSS, phát biểu nào sau đây không đúng?</b> <br>
+      <div class="chia">
+         <div class="cot">
+A. p là bộ chọn (selector) <br>
 B. Đoạn mã trên là một chỉ dẫn định dạng (style rule)
-C. color là thuộc tính (property)
-D. Đoạn mã trên là một khai báo (declaration)
+         </div>
+         <div class="cot">
+C. color là thuộc tính (property) <br>
+<mark>D. Đoạn mã trên là một khai báo (declaration)</mark>
+         </div>
+      </div> <br>
 
-Câu 3. Bạn có thể viết mã CSS ở đâu? Phát biểu nào sau đây không đúng?
+<b>Câu 3. Bạn có thể viết mã CSS ở đâu? Phát biểu nào sau đây không đúng?</b> <br>
 
-A. Viết ở trong phần tử HTML, sử dụng thuộc tính style
-B. Viết ở ngoài tài liệu HTML, trong tập tin .css, sử dụng phần tử link để liên kết
-C. Viết ở trong tài liệu HTML, sử dụng phần tử `<script>`
+A. Viết ở trong phần tử HTML, sử dụng thuộc tính style <br>
+B. Viết ở ngoài tài liệu HTML, trong tập tin .css, sử dụng phần tử link để liên kết <br>
+<mark>C. Viết ở trong tài liệu HTML, sử dụng phần tử `<script>`</mark> <br>
 D. Viết ở trong tài liệu HTML, sử dụng phần tử `<style>`
+   </div>
 
-Câu 4. Theo kĩ thuật xếp lớp (cascading) trong CSS, loại mã CSS nào có độ ưu tiên cao nhất ?
-
-A. User agent style sheet
-
+   <div class="cot">
+<b>Câu 4. Theo kĩ thuật xếp lớp (cascading) trong CSS, loại mã CSS nào có độ ưu tiên cao nhất ?</b> <br>
+      <div class="chia">
+         <div class="cot">
+A. User agent style sheet <br>
 B. User style sheet
-
-C. Author style sheet
-
+         </div>
+         <div class="cot">
+<mark>C. Author style sheet</mark> <br>
 D. Cả ba có độ ưu tiên như nhau
+         </div>
+      </div>
 
-Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?
+<b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b>
 ```
 <style>
 
@@ -1184,14 +1199,27 @@ p { color: gray; }
 
 </style>
 ```
-A. Tím
-
-B. Xanh
-
-C. Xám
-
-D. Trắng
+   <div class="chia">
+<div class="cot">A. Tím </div>
+<div class="cot">B. Xanh </div>
+<div class="cot"><mark>C. Xám</mark> </div>
+<div class="cot">D. Trắng </div>
+   </div>
+   </div>
+</div>
 
 # Chương 14. CSS - Phông chữ
+
+## 2.1.4.  Bài tập và thực hành
+
+### Bài 2.1a. Viết lại các đoạn mã trong phần lý thuyết
+
+#### 2.1 Phông chữ
+
+Phông chữ, tiếng Anh là font, là tập hợp các kí tự có cùng kiểu chữ (typeface, font-family). Bạn có thể dùng 3 thuật ngữ font, typeface và font-family thay thế cho nhau. Ví dụ, chọn [phông chữ là Arial](Chuong14/FontFamily.html) để áp dụng cho phần tử body.
+
+### Bài 2.1b. Định dạng một thực đơn
+
+
 
 # Chương 15. Bộ chọn 
