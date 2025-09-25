@@ -81,16 +81,16 @@ Kết quả: [bai_tap2.html](Chuong2/bai_tap2.html)
 
 ## 1.5. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
+<div class="chia">
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 1. WWW là viết tắt của?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Wordl Wide Wed <br>
 <mark>B. World Wide Web</mark> 
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Word Wide Web <br>
 D. Word Wibe Web 
          </div>
@@ -103,22 +103,22 @@ B. Xác định tên của một máy tính trên mạng <br>
 D. Một chuẩn trong truyền dữ liệu trên web <br> <br>
 
 <b>Câu 3. The Web is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by ________, and are accessible over the Internet.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;"> A. URL </div>
-<div style="flex: 1;"> B. pages </div>
-<div style="flex: 1;"> C. computers </div>
-<div style="flex: 1;"> <mark>D. hyperlinks</mark> </div>
+      <div class="chia">
+<div class="cot"> A. URL </div>
+<div class="cot"> B. pages </div>
+<div class="cot"> C. computers </div>
+<div class="cot"> <mark>D. hyperlinks</mark> </div>
       </div>
    </div>
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 4. HTML là viết tắt của?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. HyperText Makeup Language <br>
 B. HTTP Technology Model Language 
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 <mark>C. HyperText Markup Language</mark> <br>
 D. HyperTest Makeup Language 
          </div>
@@ -180,16 +180,16 @@ Kết quả: [test.html](Chuong3/test.html)
 
 ## Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
+<div class="chia">
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 1. Trình duyệt web đầu tiên do ai tạo ra?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Steve Jobs <br>
 <mark>B. Tim Berners-Lee</mark>
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Bill Gates <br>
 D. Chrome 
          </div>
@@ -202,12 +202,12 @@ C. Giúp tìm và sửa lỗi trong quá trình phát triển web <br>
 <mark>D. Cả A, B, và C</mark> <br> <br>
 
 <b>Câu 3. A web browser (commonly referred to as a browser or internet browser) is an _________ for accessing the World Wide Web.</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 <mark>A. application software</mark> <br>
 B. operating system
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. library <br>
 D. framework
          </div>
@@ -215,9 +215,9 @@ D. framework
 
    </div>
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 4. Mã nguồn trang web, khi trình duyệt nhận về từ web server có thể gồm?</b> <br>
-      <div style="display: flex; gap: 20px;">
+      <div class="chia">
          <div style="flex: 1px;">
 A. HTML, CSS, PHP, JavaScript <br>
 B. HTML, CSS, C#
@@ -235,7 +235,7 @@ B. CSS, DOM, Trang web kết quả, DOM Tree <br>
 D. CSSOM, DOM tree, OOP, Render tree <br> <br>
 
 <b>Câu 6. CSSOM là viết tắt của?</b> <br>
-      <div style="display: flex; gap: 20px;">
+      <div class="chia">
          <div style="flex: 1px;">
 A. CSS Object Modern <br>
 B. CSS Oriented Model
@@ -313,14 +313,14 @@ Tạo thư mục mới có tên là mywebsite, chuyển tập tin index.html và
 
 ## 1.1.7. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
-   <div style="flex: 1;">
+<div class="chia">
+   <div class="cot">
 <b>Câu 1. A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location on a computer network and a _______ for retrieving it.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;"> A. address </div>
-<div style="flex: 1;"> B. channel </div>
-<div style="flex: 1;"> C. format </div>
-<div style="flex: 1;"><mark>D. mechanism</mark> </div>
+      <div class="chia">
+<div class="cot"> A. address </div>
+<div class="cot"> B. channel </div>
+<div class="cot"> C. format </div>
+<div class="cot"><mark>D. mechanism</mark> </div>
       </div> <br>
 
 <b>Câu 2. Các thành phần thường có trong một URL gồm?</b> <br>
@@ -330,11 +330,11 @@ B. scheme, fragment_id, query_string, path, socket, domain <br>
 D. scheme, fragment_id, query_language, path, port, domain <br> <br>
 
 <b>Câu 3. Khi mở tập tin C:\index.html bằng trình duyệt, giao thức trình duyệt đã sử dụng trong URL là?</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;"> A. http </div>
-<div style="flex: 1;"> B. https </div>
-<div style="flex: 1;"><mark>C. file</mark> </div>
-<div style="flex: 1;"> D. ftp </div> <br>
+      <div class="chia">
+<div class="cot"> A. http </div>
+<div class="cot"> B. https </div>
+<div class="cot"><mark>C. file</mark> </div>
+<div class="cot"> D. ftp </div> <br>
       </div> <br>
 
 <b>Câu 4. Khi mở tập tin C:\index.html bằng trình duyệt, tại sao lại có ba dấu xuyệt (///) liền nhau?</b> <br>
@@ -344,21 +344,21 @@ C. Là chuẩn của giao thức FTP <br>
 D. Là chuẩn của giao tiếp SSL
    </div>
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 5. In computing, a hyperlink, or simply a link, is a ___________ to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;"><mark>A. reference</mark> </div>
-<div style="flex: 1;">B. format </div>
-<div style="flex: 1;">C. following </div>
-<div style="flex: 1;">D. calling </div>
+      <div class="chia">
+<div class="cot"><mark>A. reference</mark> </div>
+<div class="cot">B. format </div>
+<div class="cot">C. following </div>
+<div class="cot">D. calling </div>
       </div> <br>
 
 <b>Câu 6. Hypertext is _______displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term "hypertext" is also sometimes used to describe tables, images, and other presentational content formats with integrated hyperlinks.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. link </div>
-<div style="flex: 1;"><mark>B. text</mark> </div>
-<div style="flex: 1;">C. format </div>
-<div style="flex: 1;">D. web </div>
+      <div class="chia">
+<div class="cot">A. link </div>
+<div class="cot"><mark>B. text</mark> </div>
+<div class="cot">C. format </div>
+<div class="cot">D. web </div>
       </div>
    </div>
 </div> <br>
@@ -405,27 +405,27 @@ Step 6. Now that we’ve marked up the document, let’s save it as we did befor
 
 ## 1.1.8. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
-   <div style="flex: 1;">
+<div class="chia">
+   <div class="cot">
 <b>Câu 1. A static web page (sometimes called a flat page or a stationary page) is a web page that is delivered to the user's web browser exactly as stored, in contrast to __________ which are generated by a web application.</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 <mark>A. dynamic web pages</mark> <br>
 B. web root
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Internet <br>
 D. database
          </div>
       </div> <br>
 
 <b>Câu hỏi 2. Một phần tử HTML (thông thường) gồm các thành phần sau:</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. thẻ mở, thẻ đóng <br>
 B. thẻ mở, nội dung
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 <mark>C. thẻ mở, nội dung, thẻ đóng</mark> <br>
 D. thẻ đóng, nội dung
          </div>
@@ -438,7 +438,7 @@ C. Phần khai báo (doctype), phần tử html, phần tử head, phần tử l
 D. Phần khai báo (doctype), phần tử html, phần tử p, phần tử title, phần tử body <br>
    </div>
 
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu hỏi 4. Phát biểu nào sau đây là hợp lý:</b> <br>
 <mark>A. HTML tạo ra cấu trúc và ngữ nghĩa cho phần nội dung trang web</mark> <br>
 B. HTML thực hiện việc trang trí cho trang web <br>
@@ -592,49 +592,49 @@ Step 4. Now it’s time to save the file and take a look at it in the browser. I
 
 ## 1.1.8. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
-   <div style="flex: 1;">
+<div class="chia">
+   <div class="cot">
 <b>Câu 1. Trong UTF-8, UTF là viết tắt của các từ nào?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Uniform Text Format <br>
 <mark>B. Unicode Transformation Format</mark>
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Uniform Transformation Format <br>
 D. Unicode Text Format
          </div>
       </div> <br>
 
 <b>Câu 2. Metadata is "data that provides ________about other data". In other words, it is "data about data".</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. format </div>
-<div style="flex: 1;"><mark>B. information</mark> </div>
-<div style="flex: 1;">C. structure </div>
-<div style="flex: 1;">D. standard </div>
+      <div class="chia">
+<div class="cot">A. format </div>
+<div class="cot"><mark>B. information</mark> </div>
+<div class="cot">C. structure </div>
+<div class="cot">D. standard </div>
       </div> <br>
 
 <b>Câu 3. Technically, an ________is the collection of start tag, its attributes, an end tag and everything in between. On the other hand an HTML tag (either opening or closing) is used to mark the start or end of an element.</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. HTML attribute <br>
 B. HTML tag
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. HTML document <br>
 <mark>D. HTML element</mark>
          </div>
       </div>
    </div>
    
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Câu 4. Indicate whether each of these filenames is not an acceptable name for a web document.</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Sunflower.html <br>
 B. index.htm
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Song_Lyrics.html <br>
 <mark>D. cooking home page.html</mark>
          </div>
@@ -782,39 +782,39 @@ The owners of the Black Goose Bistro have decided to share recipes and news on t
 
 ## 1.1.6. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
-   <div style="flex: 1;">
+<div class="chia">
+   <div class="cot">
 <b>Câu hỏi 1. Trong HTML, chữ "hr" trong phần tử hr là viết tắt của chữ nào ?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Horizontal Ruler <br>
 B. Header
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Heading ruler <br>
 <mark>D. Horizontal Rule</mark>
          </div>
       </div> <br>
 
 <b>Câu hỏi 2. Trong HTML, chữ “pre” trong phần tử pre là viết tắt của chữ nào?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Preferred text <br>
 <mark>B. Preformatted text</mark>
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. Previous text <br>
 D. Part reference
          </div>
       </div> <br>
 
 <b>Câu hỏi 3. Trong HTML, chữ ‘dl” trong phần tử dl là viết tắt của chữ nào?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. Document list <br>
 B. Data list
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 <mark>C. Description list</mark> <br>
 D. Data link
          </div>
@@ -823,24 +823,24 @@ D. Data link
    
    <div style="flex: 1px;">
 <b>Câu hỏi 4. Trong HTML, chữ ‘ul” trong phần tử ul là viết tắt của chữ nào?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 <mark>A. unordered list</mark> <br>
 B. unorder list
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 C. unordered line <br>
 D. under list
          </div>
       </div> <br>
 
 <b>Câu hỏi 5. Trong HTML, chữ ‘ol” trong phần tử ol là viết tắt của chữ nào?</b> <br>
-      <div style="display: flex; gap: 20px;">
-         <div style="flex: 1;">
+      <div class="chia">
+         <div class="cot">
 A. over list <br>
 B. over line
          </div>
-         <div style="flex: 1;">
+         <div class="cot">
 <mark>C. ordered list</mark> <br>
 D. order list
          </div>
@@ -942,48 +942,48 @@ Ví dụ: [Address](Chuong8/Address.html)
 
 ## 1.1.4. Câu hỏi ôn tập
 
-<div style="display: flex; gap: 20px;">
-   <div style="flex: 1;">
+<div class="chia">
+   <div class="cot">
 <b>Question 1. The content inside the ______ element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;"><mark>A. main</mark> </div>
-<div style="flex: 1;">B. article </div>
-<div style="flex: 1;">C. section </div>
-<div style="flex: 1;">D. header </div>
+      <div class="chia">
+<div class="cot"><mark>A. main</mark> </div>
+<div class="cot">B. article </div>
+<div class="cot">C. section </div>
+<div class="cot">D. header </div>
       </div> <br>
 
 <b>Question 2. The ______ element represents a container for introductory content or a set of navigational links.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. head </div>
-<div style="flex: 1;">B. footer </div>
-<div style="flex: 1;"><mark>C. header</mark> </div>
-<div style="flex: 1;">D. article </div>
+      <div class="chia">
+<div class="cot">A. head </div>
+<div class="cot">B. footer </div>
+<div class="cot"><mark>C. header</mark> </div>
+<div class="cot">D. article </div>
       </div> <br>
 
 <b>CQuestion 3. The _______ element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. aside </div>
-<div style="flex: 1;">B. main </div>
-<div style="flex: 1;">C. section </div>
-<div style="flex: 1;"><mark>D. article</mark> </div>
+      <div class="chia">
+<div class="cot">A. aside </div>
+<div class="cot">B. main </div>
+<div class="cot">C. section </div>
+<div class="cot"><mark>D. article</mark> </div>
       </div>
    </div>
    
-   <div style="flex: 1;">
+   <div class="cot">
 <b>Question 4. The ______  element identifies content that is separate from, but tangentially related to, the surrounding content. In print, its equivalent is a sidebar, but it couldn’t be called “sidebar” because putting something on the “side” is a presentational description, not semantic.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. main </div>
-<div style="flex: 1;"><mark>B. aside</mark> </div>
-<div style="flex: 1;">C. section </div>
-<div style="flex: 1;">D. article </div>
+      <div class="chia">
+<div class="cot">A. main </div>
+<div class="cot"><mark>B. aside</mark> </div>
+<div class="cot">C. section </div>
+<div class="cot">D. article </div>
       </div> <br>
 
 <b>Question 5. The ______ element is used to create an area for contact information for the author or maintainer of the document. It is generally placed at the end of the document or in a section or article within a document.</b> <br>
-      <div style="display: flex; gap: 20px;">
-<div style="flex: 1;">A. footer </div>
-<div style="flex: 1;">B. header </div>
-<div style="flex: 1;">C. aside </div>
-<div style="flex: 1;"><mark>D. address</mark> </div>
+      <div class="chia">
+<div class="cot">A. footer </div>
+<div class="cot">B. header </div>
+<div class="cot">C. aside </div>
+<div class="cot"><mark>D. address</mark> </div>
       </div>
    </div>
 </div> <br>
