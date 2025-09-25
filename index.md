@@ -1170,6 +1170,8 @@ p { color: green; }
 
 p { color: gray; }
 
+p { color: red; }
+
 </style>
 
 A. Tím
