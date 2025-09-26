@@ -1239,14 +1239,10 @@ The instructions are similar to 1b, different from languages.
    <div class="cot">
 <b>Câu 1. Trong CSS, với khai báo: font-family: Verdana, Arial, Helvetica, sans-serif; Phông chữ nào có độ ưu tiên cao nhất.</b>
       <div class="chia">
-         <div class="cot">
-A. Arial <br>
-<mark>B. Verdana</mark>
-         </div>
-         <div class="cot">
-C. Helvetica <br>
-D. sans-serif
-         </div>
+<div class="cot">A. Arial <br> </div>
+<div class="cot"><mark>B. Verdana</mark> </div> 
+<div class="cot">C. Helvetica <br> </div>
+<div class="cot">D. sans-serif </div>
       </div> <br>
 
 <b>Câu 2. Một số loại phông chữ phổ biến trong CSS gồm:</b>
@@ -1260,10 +1256,10 @@ D. serif, sans-serif, monospace, roboto, fantasy <br>
    <div class="cot">
 <b>Câu 3. Cái nào sau đây không phải là một chuẩn định dạng phông chữ ?</b>
       <div class="chia">
-<div class="cot">A. OTF <div>
-<div class="cot">B. TTF <div>
-<div class="cot">C. WOFF2 <div>
-<div class="cot"><mark>D. OOF</mark> <div>
+<div class="cot">A. OTF </div>
+<div class="cot">B. TTF </div>
+<div class="cot">C. WOFF2 </div>
+<div class="cot"><mark>D. OOF</mark> </div>
       </div> <br>
 
 <b>Câu 4. Trên máy người duyệt web, trình duyệt có thể lấy phông chữ từ đâu? Chỉ ra phát biểu sai.</b>
@@ -1279,4 +1275,5 @@ C. Thư mục fonts trong website <br>
       </div>
    </div>
 </div>
+
 # Chương 15. Bộ chọn 
