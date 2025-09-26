@@ -1211,9 +1211,21 @@ p { color: gray; }
 
 ### Bài 2.1a. Viết lại các đoạn mã trong phần lý thuyết
 
-#### 2.1 Phông chữ
+#### 2.1. Phông chữ
 
 Phông chữ, tiếng Anh là font, là tập hợp các kí tự có cùng kiểu chữ (typeface, font-family). Bạn có thể dùng 3 thuật ngữ font, typeface và font-family thay thế cho nhau. Ví dụ, chọn [phông chữ là Arial](Chuong14/FontFamily.html) để áp dụng cho phần tử body.
+
+#### 2.1.2. Web fonts
+
+Có một nguồn khác để lấy được phông chữ là từ trên mạng. Người ta gọi các phông chữ này là web fonts. Theo đó, bạn có thể lấy phông chữ từ một máy server chuyên cung cấp phông, hoặc lưu luôn các phông chữ trong thư mục của website để chủ động khi sử dụng.
+
+##### Lấy phông chữ từ dịch vụ
+
+Trên mạng có nhiều server chuyên cung cấp phông chữ như một dịch vụ, có loại phải trả phí, có loại miễn phí. Tất nhiên, loại trả phí sẽ có chất lượng cao, độc đáo và chuyên nghiệp hơn. Chúng ta cùng sử dụng web font miễn phí của Google: [Phông chữ Dongle](Chuong14/Webfontsv.html)
+
+##### Lưu phông chữ trong website
+
+Để sử dụng web font một cách chủ động, thay vì sử dụng dịch vụ phông chữ từ các server trên mạng, chúng ta sẽ tải luôn các web font về thư mục website.
 
 ### Bài 2.1b. Định dạng một thực đơn
 
