@@ -1134,7 +1134,7 @@ float: right;
 Sau khi thực hiện các định dạng trên, [đây là trang web kết quả](Chuong13/cookingnew.html)
 
 ### Exercise 1c.
-The instructions are similar to 1b, the only difference between two exercises is the language used.
+The instructions are similar to 1b, different from languages.
 
 ## 1.7. Câu hỏi ôn tập
 
@@ -1183,9 +1183,9 @@ B. User style sheet
 <mark>C. Author style sheet</mark> <br>
 D. Cả ba có độ ưu tiên như nhau
          </div>
-      </div>
+      </div> <br>
 
-<b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b> <br>
+<b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b> <br> <br>
 &lt;style&gt; <br> <br>
 
 p { color: purple; } <br> <br> 
@@ -1231,4 +1231,52 @@ Trên mạng có nhiều server chuyên cung cấp phông chữ như một dịc
 
 Trong bài tập này, chúng ta sẽ thay đổi phông chữ cho phần nội dung và mục chính của thực đơn, quán Black Goose Bistro. Kết quả: [menu.html](Chuong14/menu.html)
 
+### Exercise 2.1c.
+The instructions are similar to 1b, different from languages.
+
+## 2.1.5. Câu hỏi ôn tập
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. Trong CSS, với khai báo: font-family: Verdana, Arial, Helvetica, sans-serif; Phông chữ nào có độ ưu tiên cao nhất.</b>
+      <div class="chia">
+         <div class="cot">
+A. Arial <br>
+<mark>B. Verdana</mark>
+         </div>
+         <div class="cot">
+C. Helvetica <br>
+D. sans-serif
+         </div>
+      </div> <br>
+
+<b>Câu 2. Một số loại phông chữ phổ biến trong CSS gồm:</b>
+
+<mark>A. serif, sans-serif, monospace, cursive, fantasy</mark> <br>
+B. serif, sans-serif, arial, cursive, fantasy <br>
+C. font-family, sans-serif, monospace, cursive, fantasy <br>
+D. serif, sans-serif, monospace, roboto, fantasy <br>
+   </div>
+
+   <div class="cot">
+<b>Câu 3. Cái nào sau đây không phải là một chuẩn định dạng phông chữ ?</b>
+      <div class="chia">
+<div class="cot">A. OTF <div>
+<div class="cot">B. TTF <div>
+<div class="cot">C. WOFF2 <div>
+<div class="cot"><mark>D. OOF</mark> <div>
+      </div> <br>
+
+<b>Câu 4. Trên máy người duyệt web, trình duyệt có thể lấy phông chữ từ đâu? Chỉ ra phát biểu sai.</b>
+      <div class="chia">
+         <div class="cot">
+A. Máy tính của người dùng <br>
+B. Máy server cung cấp dịch vụ phông chữ
+         </div>
+         <div class="cot">
+C. Thư mục fonts trong website <br>
+<mark>D. Máy tính của lập trình viên</mark>
+         </div>
+      </div>
+   </div>
+</div>
 # Chương 15. Bộ chọn 
