@@ -1185,16 +1185,16 @@ D. Cả ba có độ ưu tiên như nhau
          </div>
       </div>
 
-<b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b>
-&lt;style&gt;
+<b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b> <br>
+&lt;style&gt; <br> <br>
 
-p { color: purple; }
+p { color: purple; } <br> <br> 
 
-p { color: green; }
+p { color: green; } <br> <br>
 
-p { color: gray; }
+p { color: gray; } <br> <br>
 
-&lt;/style&gt;
+&lt;/style&gt; <br> <br>
 
    <div class="chia">
 <div class="cot">A. Tím </div>
