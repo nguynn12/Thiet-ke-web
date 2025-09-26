@@ -999,8 +999,6 @@ Câu 4: <br>
 
 Câu 5: <br>
 
-Câu 6: <br>
-
 <br> <br>
 
 # Chương 9. HTML - Form
@@ -1188,8 +1186,7 @@ D. Cả ba có độ ưu tiên như nhau
       </div>
 
 <b>Câu 5. Khi áp dụng đoạn mã CSS sau, văn bản p có màu gì?</b>
-```
-<style>
+&lt;style&gt;
 
 p { color: purple; }
 
@@ -1197,8 +1194,8 @@ p { color: green; }
 
 p { color: gray; }
 
-</style>
-```
+&lt;/style&gt;
+
    <div class="chia">
 <div class="cot">A. Tím </div>
 <div class="cot">B. Xanh </div>
