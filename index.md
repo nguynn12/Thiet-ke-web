@@ -1227,10 +1227,8 @@ Trên mạng có nhiều server chuyên cung cấp phông chữ như một dịc
 
 Để sử dụng web font một cách chủ động, thay vì sử dụng dịch vụ phông chữ từ các server trên mạng, chúng ta sẽ tải luôn các web font về thư mục website. Ví dụ: [Phông chữ Acherus Grotesque](Chuong14/Webfontsdownload.html)
 
-
-
 ### Bài 2.1b. Định dạng một thực đơn
 
-
+Trong bài tập này, chúng ta sẽ thay đổi phông chữ cho phần nội dung và mục chính của thực đơn, quán Black Goose Bistro. Kết quả: [menu.html](Chuong14/menu.html)
 
 # Chương 15. Bộ chọn 
