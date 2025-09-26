@@ -1225,7 +1225,9 @@ Trên mạng có nhiều server chuyên cung cấp phông chữ như một dịc
 
 ##### Lưu phông chữ trong website
 
-Để sử dụng web font một cách chủ động, thay vì sử dụng dịch vụ phông chữ từ các server trên mạng, chúng ta sẽ tải luôn các web font về thư mục website.
+Để sử dụng web font một cách chủ động, thay vì sử dụng dịch vụ phông chữ từ các server trên mạng, chúng ta sẽ tải luôn các web font về thư mục website. Ví dụ: [Phông chữ Acherus Grotesque](Chuong14/Webfontsdownload.html)
+
+
 
 ### Bài 2.1b. Định dạng một thực đơn
 
