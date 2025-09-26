@@ -1170,8 +1170,8 @@ C. color là thuộc tính (property) <br>
 
 A. Viết ở trong phần tử HTML, sử dụng thuộc tính style <br>
 B. Viết ở ngoài tài liệu HTML, trong tập tin .css, sử dụng phần tử link để liên kết <br>
-<mark>C. Viết ở trong tài liệu HTML, sử dụng phần tử `<script>`</mark> <br>
-D. Viết ở trong tài liệu HTML, sử dụng phần tử `<style>`
+<mark>C. Viết ở trong tài liệu HTML, sử dụng phần tử &lt;script&gt;</mark> <br>
+D. Viết ở trong tài liệu HTML, sử dụng phần tử &lt;style&gt;
    </div>
 
    <div class="cot">
