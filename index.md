@@ -1277,3 +1277,24 @@ C. Thư mục fonts trong website <br>
 </div>
 
 # Chương 15. Bộ chọn 
+
+# Chương 21. JavaScript
+
+## 1.3. Bài tập
+
+### Bài 1a. Cài đặt và viết lại các đoạn mã trong phần lý thuyết
+
+Chạy chương trình JavaScript:
+
+#### Cách 1: Chạy trên trình duyệt (Console)
+
+[![Ảnh](Image/21.1.png)](Image/21.1.png)
+
+### Cách 2: Nhúng JavaScript trong [Tài liệu HTML](Chuong21/index.html) (Front-end)
+
+### Cách 3: Viết mã JavaScript trong [tập tin riêng biệt](Chuong21/BaiTap1/index.html)
+
+### Cách 4: Chạy mã JavaScript trên nền tảng Node.js (Back-end)
+
+[![Ảnh](Image/21.2.png)](Image/21.2.png)
+
