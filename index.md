@@ -8,7 +8,7 @@
       flex: 1;
    }
 
-</style>
+</style>>
 
 # Chương 1. Nghề làm web
 
@@ -1278,7 +1278,7 @@ C. Thư mục fonts trong website <br>
 
 # Chương 15. Bộ chọn 
 
-# Chương 21. JavaScript
+# Chương 21. JavaScript (1) - Làm quen với JavaScript
 
 ## 1.3. Bài tập
 
@@ -1297,4 +1297,151 @@ Chạy chương trình JavaScript:
 ### Cách 4: Chạy mã JavaScript trên nền tảng Node.js (Back-end)
 
 [![Ảnh](Image/21.2.png)](Image/21.2.png)
+
+# Chương 22. JavaScript (2) - Cú pháp, kiểu dữ liệu và biến
+
+## 2.5. Bài tập và thực hành
+
+### Bài 2a. Viết lại các đoạn mã trong phần lý thuyết
+
+#### Cú pháp
+
+```
+const message = 'Chao bac Teo!';
+alert(message);
+```
+Hoặc có thể viết nhiều lệnh trên một dòng (không khuyến khích):
+```
+const message = 'Chao bac Teo!'; alert(message);
+```
+Khối lệnh được bao trong cặp dấu ngoặc nhọn { }:
+```
+{
+   const message = 'Chao bac Teo!';
+   alert(message);
+}
+```
+Phân biệt chữ hoa, chữ thường
+```
+const myVariable = 'a';
+const myvariable = 'b';
+const MyVariable = 'c';
+```
+Từ dành riêng
+
+Ví dụ sử dụng sai:
+```
+const case = 'dung tu khoa dat ten bien';
+```
+Lỗi: không thể dùng case làm tên biến.
+
+Chú thích trong JavaScript
+```
+// day la cau chao
+alert("Chao bac Teo");
+
+// hoặc
+alert("Chao bac Teo"); // day la cau chao
+
+/* đây là câu chào
+nó sẽ xuất hiện trong một cửa sổ
+trên trình duyệt */
+alert("Chao bac Teo");
+```
+Toán tử typeof
+```
+typeof 'hi bac Teo';        // 'string'
+typeof 123;                 // 'number'
+typeof true;                // 'boolean'
+typeof { ten: 'van teo' };  // 'object'
+typeof [1, 2, 3];           // 'object'
+```
+Khai báo và gán giá trị cho biến
+```
+var tuoi = 20;
+typeof(tuoi); // 'number'
+
+tuoi = 'hai muoi';
+typeof(tuoi); // 'string'
+```
+const, let, var
+```
+const namSinh = 2000;
+namSinh = 2001; // Lỗi: Assignment to constant variable.
+
+let diem = 7;
+diem = 8;
+console.log(diem); // 8
+
+let x = 1, y = 2, z = 3;
+console.log(x, y, z); // 1 2 3
+```
+const với kiểu dữ liệu phức tạp
+```
+const arr = [1, 2, 3];
+arr[0] = 4;
+console.log(arr); // [4, 2, 3]
+
+const arr1 = [4, 5, 6];
+arr1 = [7, 8, 9]; // Lỗi: Assignment to constant variable.
+```
+
+### Bài 2b. Sử dụng toán tử typeof, điền kết quả vào bảng sau, giải thích kết quả:
+
+| Dữ liệu      | Kết quả typeof | Giải thích                                                                 |
+|---------------|----------------|-----------------------------------------------------------------------------|
+| null          | object         | Do lỗi lịch sử của JS: `typeof null` trả về `"object"`, dù thực ra là giá trị rỗng. |
+| undefined     | undefined      | Biến được khai báo nhưng chưa gán giá trị sẽ có kiểu `undefined`.          |
+| 0             | number         | Đây là một giá trị số học (number).                                        |
+| True          | undefined      | JS phân biệt chữ hoa – `True` (chữ T hoa) không tồn tại, nên được xem như biến chưa được định nghĩa. |
+| true          | boolean        | Là giá trị logic đúng (boolean).                                           |
+| 'True'        | string         | Có dấu nháy `' '` → chuỗi (string).                                        |
+| 1e5           | number         | Dạng viết khoa học: `1e5` = 1 × 10⁵ = 100000. JS hiểu đây là kiểu số.     |
+
+## 2.6. Câu hỏi ôn tập
+
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. Trong JavaScript, đoạn mã này: const case = 'dung tu khoa dat ten bien'; bị lỗi gì?</b> <br>
+      <div class="chia">
+         <div class="cot">
+A. Dấu gán phải là ‘:=’ <br>
+B. Thừa dấu chấm phẩy ( ;) ở cuối câu lệnh
+         </div>
+         <div class="cot">
+C. Phải bao một chuỗi bằng dấu nháy kép ("")
+<mark>D. Dùng từ khóa để đặt tên biến</mark>
+         </div>
+      </div> <br>
+
+<b>Câu 2. Trong JavaScript, dòng mã sau sẽ xuất gì ra màn hình? <br>
+
+typeof(3.1415);</b>
+      <div class="chia">
+<div class="cot">A. PI </div>
+<div class="cot"><mark>B. Number</mark> </div>
+<div class="cot">C. Double </div>
+<div class="cot">D. Integer </div>
+      </div>
+   </div>
+
+   <div class="cot">
+<b>Câu 3. Khi lập trình, có nhiều cách để viết tên các biến, ví dụ một biến có tên là  fullName thì nó được viết theo phong cách gì?</b> <br>
+      <div class="chia">
+<div class="cot">A. PascalCase </div>
+<div class="cot">B. snake_case </div>
+<div class="cot"><mark>C. camelCase</mark> </div>
+<div class="cot">D. kebab-case </div>
+      </div> <br>
+
+<b>Câu 4. Trong JavaScript, tên biến nào sau đây bị lỗi?</b> <br>
+
+<mark>A. var full-name = 'nguyen van teo';</mark> <br>
+B. var full_name = 'nguyen van teo'; <br>
+C. var full4Name = 'nguyen van teo'; <br>
+D. var $fullName = 'nguyen van teo'; <br>
+   </div>
+</div>
+
+# Chương 23. JavaScript (3) - Phạm vi, kiểu string, xuất chuỗi
 
