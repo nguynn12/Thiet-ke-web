@@ -1028,6 +1028,10 @@ Phần tử fieldset được sử dụng để nhóm các control có liên qua
 
 # Chương 10. Dự án HTML
 
+## Dự án 1
+
+[Dự án 1](Chuong10/index.html)
+
 # Chương 11. CSS - Tổng quan
 
 # Chương 12. CSS - Sự kế thừa, xếp lớp
