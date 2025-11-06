@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Liên hệ | Tiệm sách cũ Cu Tèo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; line-height: 1.6; }
+    header, main, footer { max-width: 900px; margin: 0 auto; }
+    label { display: block; margin: 8px 0 4px; }
+    input, textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px; }
+    button { margin-top: 10px; padding: 8px 16px; border: none; border-radius: 6px; background: #0b62d6; color: #fff; cursor: pointer; }
+    nav a { text-decoration: none; color: #0b62d6; margin-right: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Liên hệ</h1>
+    <nav>
+      <a href="index.html">← Trang chủ</a>
+      <a href="thoiGianMoCua.html">Thời gian mở cửa</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Nếu bạn có nhu cầu mua, bán hoặc ký gửi sách, vui lòng điền thông tin bên dưới:</p>
+    <form action="https://httpbin.org/get" method="get">
+      <label for="ten">Họ và tên:</label>
+      <input type="text" id="ten" name="ten" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="sdt">Số điện thoại:</label>
+      <input type="tel" id="sdt" name="sdt">
+
+      <label for="loi-nhan">Lời nhắn:</label>
+      <textarea id="loi-nhan" name="loi-nhan" rows="5" placeholder="Viết lời nhắn ở đây..."></textarea>
+
+      <button type="submit">Gửi</button>
+      <button type="reset">Xóa</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Bản quyền &copy; 2025 Tiệm sách cũ Cu Tèo.</p>
+  </footer>
+</body>
+</html>
