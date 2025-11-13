@@ -1374,17 +1374,13 @@ C. Thư mục fonts trong website <br>
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (B): Thuộc tính font-family là một "font stack" (ngăn xếp phông chữ). Trình duyệt sẽ thử áp dụng phông chữ theo thứ tự từ trái sang phải. Nó sẽ thử Verdana trước tiên. Nếu máy người dùng không có, nó mới thử Arial, rồi đến Helvetica, và cuối cùng là bất kỳ phông sans-serif nào có sẵn. <br>
 
-Câu 2: <br>
+Câu 2 (A): Đây là 5 họ phông chữ (generic family) cơ bản trong CSS. arial và roboto (B, D) là tên các phông chữ cụ thể, không phải họ phông chữ. <br>
 
-Câu 3: <br>
+Câu 3 (D): OTF (OpenType Font), TTF (TrueType Font), và WOFF/WOFF2 (Web Open Font Format) là các định dạng phông chữ web phổ biến. OOF không phải là một định dạng phông chữ. <br>
 
-Câu 4: <br>
-
-Câu 5: <br>
-
-Câu 6: 
+Câu 4 (D): Trình duyệt của người dùng (client) không thể truy cập vào ổ cứng máy tính của lập trình viên (developer) để lấy phông chữ. Nó chỉ có thể lấy phông từ (A) máy của chính người dùng, (B) một dịch vụ web font (như Google Fonts), hoặc (C) từ thư mục fonts trên chính máy chủ (server) của website đó.
 
 <br> <br>
 
@@ -1496,17 +1492,16 @@ Cỡ chữ của h1 là bao nhiêu px?</b>
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (B): rem (root em) là đơn vị đo lường tương đối, luôn dựa trên kích thước phông chữ của phần tử gốc (root element) là `<html>`. em (A) thì dựa trên kích thước phông chữ của phần tử cha (parent element) của nó. <br>
 
-Câu 2: <br>
+Câu 2 (D): Cú pháp CSS yêu cầu đơn vị (em, rem, px,...) phải được viết liền ngay sau con số, không có dấu cách. 1.5 em (có dấu cách) là sai cú pháp. 1.5em mới là đúng. <br>
 
-Câu 3: <br>
+Câu 3 (B): Thuộc tính font-style được dùng để thiết lập chữ nghiêng (với giá trị italic hoặc oblique). font-weight dùng cho độ đậm (bold). font-variant dùng cho chữ hoa nhỏ (small-caps). <br>
 
-Câu 4: <br>
-
-Câu 5: <br>
-
-Câu 6: 
+Câu 4 (B):
+1. html { font-size: 100%; } → Kích thước phông chữ gốc (mặc định của trình duyệt) là 16px.<br>
+2. article { font-size: 0.875em } → Đơn vị em này tính theo phần tử cha (là body, kế thừa từ html). Vậy 0.875 * 16px = 14px.<br>
+3. h1 { font-size: 1.5em; } → h1 nằm trong article. Đơn vị em này tính theo cha của nó là article. Vậy 1.5 * 14px = 21px.
 
 <br> <br>
 
@@ -1693,18 +1688,13 @@ D. var $fullName = 'nguyen van teo'; <br>
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (D): case là một từ khóa (keyword) được JavaScript dành riêng để sử dụng trong cấu trúc switch...case. Bạn không thể dùng từ khóa làm tên biến. <br>
 
-Câu 2: <br>
+Câu 2 (B): Trong JavaScript, tất cả các loại số (cả số nguyên và số thập phân) đều thuộc cùng một kiểu dữ liệu nguyên thủy là number. Do đó, typeof(3.1415) sẽ trả về chuỗi "number". <br>
 
-Câu 3: <br>
+Câu 3 (C): camelCase là quy tắc đặt tên: viết thường từ đầu tiên và viết hoa chữ cái đầu tiên của các từ tiếp theo (ví dụ: fullName, getElementById). (PascalCase: FullName, snake_case: full_name, kebab-case: full-name). <br>
 
-Câu 4: <br>
-
-Câu 5: <br>
-
-Câu 6: 
-
+Câu 4 (A): Tên biến trong JavaScript không được chứa dấu gạch nối (-) vì nó bị hiểu lầm là toán tử trừ (subtraction). Tên biến có thể chứa dấu gạch dưới (_), ký tự đô la ($), và số (miễn là không bắt đầu bằng số).
 <br> <br>
 
 # Chương 23. JavaScript (3) - Phạm vi, kiểu string, xuất chuỗi
