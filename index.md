@@ -1025,10 +1025,69 @@ Phần tử fieldset được sử dụng để nhóm các control có liên qua
 
 [![Image](Image/9.1.jpg)](Image/9.1.jpg)
 
+## 1.1.5. Câu hỏi ôn tập
+
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. A webform, web form or HTML form on a web page allows a user to _____ that is sent to a server for processing.</b>
+      <div class="chia">
+         <div class="cot">
+A. download data <br>
+B. create database
+         </div>
+         <div class="cot">
+C. markup database <br>
+<mark>D. enter data</mark>
+         </div>
+      </div> <br>
+
+<b>Câu 2. Trong quá trình mua hàng online, để người mua hàng lựa chọn hình thức thanh toán (trả tiền mặt khi nhận hàng, chuyển khoản, MoMo...v.v), sử dụng control nào là hợp lý nhất?</b>
+      <div class="chia">
+<div class="cot">A. Checkbox</div>
+<div class="cot"><mark>B. Radio</mark></div>
+<div class="cot">C. Textarea</div>
+<div class="cot">D. Button</div>
+      </div> <br>
+
+<b>Câu 3. Khi muốn lấy ý kiến đánh giá, bình luận về một sản phẩm từ người mua hàng, sử dụng control nào là hợp lý nhất?</b>
+      <div class="chia">
+<div class="cot">A. Datalist</div>
+<div class="cot">B. Label</div>
+<div class="cot">C. Select</div>
+<div class="cot"><mark>D. Textarea</mark></div>
+      </div>
+   </div>
+
+   <div class="cot">
+<b>Câu 4. Khi làm việc với form, để không bị chuyển trang khi bấm nút submit, bạn có thể thiết lập giá trị cho action là:</b>
+      <div class="chia">
+<div class="cot">A. %</div>
+<div class="cot"><mark>B. #</mark></div>
+<div class="cot">C. @</div>
+<div class="cot">D. /</div>
+      </div> <br>
+
+<b>Câu 5. Trong form có chứa control `<input type="password" name="mat-khau" maxlength="8" id="form-mat-khau">`. Vậy, khi gửi form này về web server, mật khẩu của người dùng sẽ chứa trong thuộc tính nào?</b>
+      <div class="chia">
+<div class="cot">A. type</div>
+<div class="cot"><mark>B. name</mark></div>
+<div class="cot">C. maxlength</div>
+<div class="cot">D. id</div>
+      </div> <br>
+
+<b>Câu 6. Phần tử fieldset được sử dụng để nhóm các control có liên quan đến nhau, để chú thích cho nhóm các control này sử dụng phần tử _____.</b>
+      <div class="chia">
+<div class="cot">A. label</div>
+<div class="cot">B. group</div>
+<div class="cot">C. textarea</div>
+<div class="cot"><mark>D. legend</mark></div>
+      </div>
+   </div>
+</div> <br> <br>
 
 # Chương 10. Dự án HTML
 
-[## Dự án 1](Chuong10/index.html)
+## [Dự án 1](Chuong10/index.html)
 
 # Chương 11. CSS - Tổng quan
 
