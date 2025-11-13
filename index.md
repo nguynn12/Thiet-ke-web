@@ -1398,7 +1398,7 @@ Let’s refine the size of some of the text elements to give the online menu a m
 A. h1 { font-size: 100%; } <br>
 B. h1 { font-size: 20px;   } <br>
 C. h1 { font-size: 1.5rem;   } <br>
-<mark>D. h1 { font-size: 1.5 em; }</mark>
+<mark>D. h1 { font-size: 1.5 em; }</mark> <br>
    
 <b>Câu 3. Trong CSS, muốn định dạng chữ nghiêng, sử dụng thuộc tính nào?</b>
       <div class="chia">
@@ -1450,9 +1450,19 @@ Cỡ chữ của h1 là bao nhiêu px?</b>
 <div class="cot">D. 24</div>
       </div>
    </div>
-</div>
+</div> <br> <br>
 
 # Chương 15. Bộ chọn 
+
+# Chương 16. Định dạng màu
+
+# Chương 17. Bộ chọn theo trạng thái & thuộc tính
+
+# Chương 18. Ảnh nền
+
+# Chương 19. Mô hình cái hộp 
+
+# Chương 20. Mô hình cái hộp (bài tập)
 
 # Chương 21. JavaScript (1) - Làm quen với JavaScript
 
@@ -1621,3 +1631,4 @@ D. var $fullName = 'nguyen van teo'; <br>
 
 # Chương 23. JavaScript (3) - Phạm vi, kiểu string, xuất chuỗi
 
+# Chương 24. JavaScript (4) - Kiểu dữ liệu number
