@@ -7,7 +7,6 @@
    .cot {
       flex: 1;
    }
-
 </style>>
 
 # Chương 1. Nghề làm web
@@ -1024,6 +1023,14 @@ Phần tử fieldset được sử dụng để nhóm các control có liên qua
 ### Exercise 2. Here’s the scenario. You are the web designer in charge of creating an online pizza ordering form for Black Goose Bistro. The owner has handed you a sketch (see the below figure) of the form’s content. There are sticky notes from the programmer with information about the script and variable names you need to use.
 
 [![Image](Image/9.1.jpg)](Image/9.1.jpg)
+
+[Result at here](Chuong9/Ex2.html)
+
+### Bài 3. Viết mã cho form sau:
+
+[![Image](Image/9.2.png)](Image/9.2.png)
+
+[Kết quả](Chuong9/Ex3.html)
 
 ## 1.1.5. Câu hỏi ôn tập
 
