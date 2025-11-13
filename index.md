@@ -129,7 +129,6 @@ C. liên kết <br>
 <mark>D. URL</mark> <br>
 
    </div>
-
 </div> <br>
  
 Giải thích: <br>
@@ -210,7 +209,6 @@ C. library <br>
 D. framework
          </div>
       </div>
-
    </div>
 
    <div class="cot">
@@ -363,17 +361,17 @@ D. Là chuẩn của giao tiếp SSL
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (D): URL (Bộ định vị tài nguyên thống nhất) không chỉ chỉ định vị trí (location) của tài nguyên mà còn chỉ định cả cơ chế (mechanism) để truy xuất nó. Cơ chế đó chính là phần giao thức (scheme), ví dụ: http://, https://, ftp://, file://. <br>
 
-Câu 2: <br>
+Câu 2 (C): Đây là các thành phần chuẩn của một URL. Phương án B sai vì "socket" không phải là một thành phần của URL. Phương án D sai vì "query_language" không phải là thành phần chuẩn (đúng là "query_string"). <br>
 
-Câu 3: <br>
+Câu 3 (C): Khi trình duyệt mở một tập tin trực tiếp từ ổ cứng của máy tính (máy cục bộ), nó sẽ sử dụng giao thức file:// (File Transfer Protocol). Các giao thức http, https, ftp dùng để truy cập tài nguyên qua mạng. <br>
 
-Câu 4: <br>
+Câu 4 (B): Cú pháp đầy đủ của giao thức file là file://[tên_máy]/[đường_dẫn]. Khi truy cập file trên máy cục bộ, phần [tên_máy] (thường là localhost hoặc để trống) được lược bỏ, nên ta có file:// (phần giao thức) và / (bắt đầu đường dẫn tuyệt đối), gộp lại thành file:///. <br>
 
-Câu 5: <br>
+Câu 5 (A): Một siêu liên kết (hyperlink), hay đơn giản là một liên kết (link), về cơ bản là một tham chiếu (reference) đến dữ liệu (một tài liệu khác, một phần tử cụ thể) mà người dùng có thể truy cập bằng cách nhấp vào. <br>
 
-Câu 6: <br>
+Câu 6 (B): "Hypertext" (Siêu văn bản) chính là văn bản (text) được hiển thị trên máy tính có chứa các tham chiếu (siêu liên kết) tới văn bản khác. 
 
 <br> <br>
 
@@ -453,15 +451,15 @@ D. Là một chú thích trong HTML <br>
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (A): Trang web tĩnh (static) được gửi đến trình duyệt "y như nó được lưu" (chỉ là file HTML, CSS, JS). Ngược lại, trang web động (dynamic) được tạo ra bởi một ứng dụng web phía máy chủ (ví dụ: PHP, Java, Python) khi có yêu cầu, thường bằng cách lấy dữ liệu từ cơ sở dữ liệu. <br>
 
-Câu 2: <br>
+Câu 2 (C): Cấu trúc phổ biến và đầy đủ nhất của một phần tử HTML là: Thẻ mở (ví dụ: `<p>`), Nội dung (ví dụ: "Hello"), và Thẻ đóng (ví dụ: `</p>`). (Một số phần tử rỗng chỉ có thẻ mở như `<img>` hoặc `<br>`). <br>
 
-Câu 3: <br>
+Câu 3 (A): Đây là cấu trúc cơ bản và tối thiểu của một tài liệu HTML5. header (B) là thẻ ngữ nghĩa nằm trong body. link (C) là tùy chọn, nằm trong head. p (D) là nội dung, nằm trong body. <br>
 
-Câu 4: <br>
+Câu 4 (A): Vai trò chính của HTML là cung cấp cấu trúc (ví dụ: đây là tiêu đề, đây là đoạn văn) và ngữ nghĩa (semantic) cho nội dung. Việc trang trí (B, D) là của CSS. Việc xử lý tương tác (C) là của JavaScript. <br>
 
-Câu 5: <br>
+Câu 5 (B): `<!DOCTYPE html>` không phải là một thẻ hay phần tử HTML (nó không có thẻ đóng và không thuộc cây DOM). Nó là một khai báo (declaration) bắt buộc ở đầu file, cho trình duyệt biết rằng đây là tài liệu HTML5 và cần được hiển thị theo chế độ chuẩn (standards mode). 
 
 <br> <br>
 
@@ -654,17 +652,17 @@ D. Để đăng ký tên miền cho trang web <br>
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (B): UTF là viết tắt của Unicode Transformation Format (Định dạng Chuyển đổi Unicode). UTF-8 là một cách mã hóa (encoding) cụ thể của tiêu chuẩn Unicode, sử dụng 8-bit. <br>
 
-Câu 2: <br>
+Câu 2 (B): Metadata là "dữ liệu về dữ liệu" (data about data). Nó cung cấp thông tin (information) mô tả về dữ liệu chính của trang (ví dụ: tác giả, bộ ký tự, từ khóa). <br>
 
-Câu 3: <br>
+Câu 3 (D): Một phần tử HTML (HTML element) là một khái niệm hoàn chỉnh, bao gồm thẻ mở, thuộc tính, nội dung, và thẻ đóng. Một thẻ HTML (HTML tag) chỉ là phần đánh dấu (`<p>` hoặc `</p>`). <br>
 
-Câu 4: <br>
+Câu 4 (D): Không nên sử dụng dấu cách (space) trong tên tệp cho web ("cooking home page.html"). Dấu cách không hợp lệ trong URL và sẽ phải mã hóa thành %20, gây khó khăn và tiềm ẩn lỗi. Các phương án A, B, C đều là các cách đặt tên hợp lệ. <br>
 
-Câu 5: <br>
+Câu 5 (B): Lỗi. Thẻ đóng của `<em>` phải là `</em>` (có dấu gạch chéo /). Các ví dụ A, C, D đều đúng cú pháp. <br>
 
-Câu 6: <br>
+Câu 6 (C): Trang web validator.w3.org là dịch vụ chính thức của W3C (World Wide Web Consortium) dùng để kiểm tra tính hợp lệ của mã HTML (validate), giúp tìm các lỗi cú pháp và đảm bảo mã tuân thủ các tiêu chuẩn web. 
 
 <br> <br>
 
@@ -848,17 +846,15 @@ D. order list
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (D): hr là viết tắt của Horizontal Rule (Đường kẻ ngang). Trong HTML5, nó mang ý nghĩa là một sự ngắt quãng về chủ đề (thematic break), và được trình duyệt mặc định hiển thị là một đường kẻ ngang. <br>
 
-Câu 2: <br>
+Câu 2 (B): pre là viết tắt của Preformatted text (Văn bản được định dạng trước). Nội dung bên trong thẻ `<pre>` sẽ giữ nguyên mọi khoảng trắng, tab, và ký tự xuống dòng y như trong mã nguồn. <br>
 
-Câu 3: <br>
+Câu 3 (C): dl là viết tắt của Description list (Danh sách mô tả). Nó được dùng để chứa các cặp `<dt>` (description term - thuật ngữ) và `<dd>` (description details - mô tả). <br>
 
-Câu 4: <br>
+Câu 4 (A): ul là viết tắt của Unordered list (Danh sách không có thứ tự), thường được hiển thị dưới dạng các dấu đầu dòng (bullet). <br>
 
-Câu 5: <br>
-
-Câu 6: <br>
+Câu 5 (C): ol là viết tắt của Ordered list (Danh sách có thứ tự), thường được hiển thị dưới dạng số (1, 2, 3...) hoặc chữ cái (a, b, c...). <br>
 
 <br> <br>
 
@@ -988,15 +984,15 @@ Ví dụ: [Address](Chuong8/Address.html)
 
 Giải thích: <br>
 
-Câu 1: <br>
+Câu 1 (A): Thẻ `<main>` được thiết kế để chứa nội dung chính, độc nhất của trang. Các phần như sidebar, navigation, footer thường được lặp lại trên nhiều trang nên không đặt trong `<main>`. <br>
 
-Câu 2: <br>
+Câu 2 (C): Thẻ `<header>` dùng để chứa nội dung giới thiệu hoặc điều hướng, thường đặt ở đầu trang hoặc đầu một `<article>`/`<section>`. (Lưu ý không nhầm với thẻ `<head>` chứa metadata). <br>
 
-Câu 3: <br>
+Câu 3 (D): Thẻ `<article>` định nghĩa một nội dung độc lập, khép kín (self-contained) có thể được phân phối hoặc tái sử dụng ở nơi khác (ví dụ: một bài đăng blog, một tin tức, một bình luận). <br>
 
-Câu 4: <br>
+Câu 4 (B): Thẻ `<aside>` dùng cho nội dung liên quan bên lề, không thuộc luồng nội dung chính (ví dụ: sidebar, các liên kết liên quan, quảng cáo). <br>
 
-Câu 5: <br>
+Câu 5 (D): Thẻ `<address>` được dùng với mục đích ngữ nghĩa là cung cấp thông tin liên hệ (tác giả, chủ sở hữu) cho tài liệu hoặc bài viết (article) gần nhất. <br>
 
 <br> <br>
 
@@ -1090,7 +1086,23 @@ C. markup database <br>
 <div class="cot"><mark>D. legend</mark></div>
       </div>
    </div>
-</div> <br> <br>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1 (D): Chức năng chính của một biểu mẫu (form) trên web là cho phép người dùng nhập dữ liệu (enter data), sau đó dữ liệu này được gửi đến máy chủ để xử lý. <br>
+
+Câu 2 (B): Radio (Radio button) được sử dụng khi người dùng chỉ được chọn một tùy chọn duy nhất trong một nhóm (ví dụ: chỉ có thể chọn một hình thức thanh toán). Checkbox (A) cho phép chọn nhiều tùy chọn. <br>
+
+Câu 3 (D): Textarea (Vùng văn bản) tạo ra một ô nhập liệu cho phép nhập nhiều dòng, phù hợp cho các nội dung dài như bình luận, đánh giá. <br>
+
+Câu 4 (B): Gán action="#" (dấu thăng) làm cho form gửi dữ liệu đến chính trang hiện tại. Nó là một kỹ thuật cũ để "gửi" form mà không gây tải lại toàn bộ trang (hoặc chỉ nhảy lên đầu trang). <br>
+
+Câu 5 (B): Khi form được gửi đi, trình duyệt sẽ gửi cặp "khóa=giá trị". Khóa (key) chính là thuộc tính name (name="mat-khau"), và giá trị (value) là dữ liệu người dùng nhập. Thuộc tính id chỉ dùng cho CSS, JavaScript và thẻ `<label>`. <br>
+
+Câu 6 (D): Thẻ `<fieldset>` dùng để nhóm các control liên quan, và thẻ `<legend>` được dùng để cung cấp một tiêu đề hoặc chú thích cho nhóm `<fieldset>` đó. 
+
+<br> <br>
 
 # Chương 10. Dự án HTML
 
@@ -1273,7 +1285,21 @@ p { color: gray; } <br> <br>
 <div class="cot">D. Trắng </div>
    </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1 (B): CSS là viết tắt của Cascading Style Sheets (Bảng định kiểu xếp chồng). "Cascading" (xếp chồng) là một khái niệm quan trọng, chỉ cơ chế trình duyệt quyết định áp dụng kiểu nào khi có nhiều kiểu xung đột. <br>
+
+Câu 2 (D): Đoạn mã p { ... } là một chỉ dẫn định dạng (style rule). p là bộ chọn (selector). color: red; là một khai báo (declaration). Phát biểu D nói rằng toàn bộ đoạn mã là một khai báo là không đúng; toàn bộ đoạn mã là một chỉ dẫn (rule) chứa các khai báo. <br>
+
+Câu 3 (C): Phần tử `<script>` dùng để nhúng mã JavaScript, không phải CSS. CSS có 3 cách nhúng: (A) Inline - dùng thuộc tính style, (B) External - dùng thẻ `<link>` để liên kết file .css, (D) Internal - dùng thẻ `<style>`. <br>
+
+Câu 4 (C): Theo thứ tự xếp lớp, kiểu do tác giả (người lập trình) viết (Author style sheet) có độ ưu tiên cao nhất, ghi đè lên kiểu của người dùng (User style sheet) và kiểu mặc định của trình duyệt (User agent style sheet). (Không tính !important). <br>
+
+Câu 5 (C): Khi các bộ chọn có cùng độ đặc hiệu (ở đây cả 3 đều là p), quy tắc "xếp chồng" (cascade) sẽ được áp dụng. Chỉ dẫn định dạng xuất hiện cuối cùng trong mã sẽ ghi đè lên các chỉ dẫn trước đó. Vì vậy, color: gray; là chỉ dẫn cuối cùng và sẽ được áp dụng.
+
+<br> <br>
 
 # Chương 14. CSS - Phông chữ
 
@@ -1344,7 +1370,23 @@ C. Thư mục fonts trong website <br>
          </div>
       </div>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: 
+
+<br> <br>
 
 ## 2.2.8. Bài tập và thực hành
 
@@ -1450,9 +1492,29 @@ Cỡ chữ của h1 là bao nhiêu px?</b>
 <div class="cot">D. 24</div>
       </div>
    </div>
-</div> <br> <br>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: 
+
+<br> <br>
 
 # Chương 15. Bộ chọn 
+
+## 2.3.6. Bài tập và thực hành
+
+
 
 # Chương 16. Định dạng màu
 
@@ -1627,7 +1689,23 @@ B. var full_name = 'nguyen van teo'; <br>
 C. var full4Name = 'nguyen van teo'; <br>
 D. var $fullName = 'nguyen van teo'; <br>
    </div>
-</div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1: <br>
+
+Câu 2: <br>
+
+Câu 3: <br>
+
+Câu 4: <br>
+
+Câu 5: <br>
+
+Câu 6: 
+
+<br> <br>
 
 # Chương 23. JavaScript (3) - Phạm vi, kiểu string, xuất chuỗi
 
