@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Pseudo-class Input</title>
+<style>
+input:focus { background-color: yellow; }
+input:checked + label { color: red; }
+input[type="checkbox"]:checked { box-shadow: 0 0 0 3px hotpink; }
+</style>
+</head>
+<body>
+<p><input type="text" placeholder="Nhập tên..."></p>
+<div>
+  <input type="checkbox" id="opt-in">
+  <label for="opt-in">Chọn</label>
+</div>
+</body>
+</html>

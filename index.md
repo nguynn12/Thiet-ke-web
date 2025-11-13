@@ -1689,7 +1689,239 @@ B. none
 <mark>C. content-box</mark>
 D. padding-box
 
+Giải thích:
+
+
+Câu 1 (D): Hàm rgb(R, G, B) xác định màu sắc dựa trên mô hình màu Đỏ (Red), Xanh lá (Green), và Xanh dương (Blue). Giá trị rgb(255, 0, 0) có nghĩa là Đỏ ở mức tối đa (255), trong khi Xanh lá và Xanh dương đều ở mức 0. Kết quả là màu Đỏ nguyên chất.
+
+
+Câu 2 (B):
+
+
+    A sai: Mã màu Hex (#RRGGBB) chỉ sử dụng các ký tự từ 0-9 và A-F. Ký tự 'G' là không hợp lệ.
+
+
+    B đúng: rgba(R, G, B, A) hợp lệ. Các giá trị R, G, B (255, 0, 255) nằm trong khoảng 0-255 và giá trị Alpha (độ trong suốt) là .5 (tức 0.5) nằm trong khoảng 0.0-1.0.
+
+
+    C sai: Hàm rgb chỉ nhận 3 tham số (R, G, B), không phải 4. Hơn nữa, giá trị 256 vượt quá mức 255.
+
+
+    D sai: Giá trị 256 (cho Blue) nằm ngoài khoảng cho phép của rgb (0-255).
+
+
+Câu 3 (B): Chỉ dẫn này không hợp lệ vì giá trị Alpha (độ trong suốt) trong rgba phải là một số từ 0.0 (hoàn toàn trong suốt) đến 1.0 (hoàn toàn mờ đục). Giá trị 2 nằm ngoài khoảng cho phép này.
+
+
+Câu 4 (C): Thuộc tính background-clip quy định vùng mà hình nền sẽ hiển thị.
+
+
+    border-box: Nền hiển thị ra tận viền (border).
+
+
+    padding-box: Nền hiển thị đến vùng đệm (padding).
+
+
+    content-box: Nền chỉ hiển thị trong vùng nội dung (content), không bao gồm padding và border.
+
 # Chương 17. Bộ chọn theo trạng thái & thuộc tính
+
+## 3.2.5. Bài tập và thực hành
+### Bài 3.2a. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### 3.2.1. Bộ chọn lớp giả (pseudo-class)
+
+##### Bộ chọn pseudo-class cho liên kết
+
+Bộ chọn pseudo-class cho liên kết được sử dụng để định dạng các liên kết dựa trên trạng thái của nó. Cụ thể,
+
+– :link dùng để định dạng cho liên kết chưa được người dùng bấm vào
+
+– :visited dùng để định dạng cho liên kết đã được người dùng bấm vào
+
+Ví dụ: mặc định, liên kết người dùng chưa bấm vào sẽ có màu xanh, bấm vào rồi sẽ có màu tím. Tuy nhiên, chúng ta có thể sử dụng CSS để thay đổi màu mặc định của liên kết thành các màu khác. [BoChonPseudoLink](Chuong17/LyThuyet/PseudoLink.html)
+
+##### Bộ chọn pseudo-class dựa trên thao tác người dùng
+
+Phần này sẽ tìm hiểu các bộ chọn pseudo-class dựa trên thao tác của người dùng, gồm ba bộ chọn sau:
+
+– :focus áp dụng khi người dùng chọn phần tử để nhập nội dung, phần tử được chọn sẽ nổi bật hơn so với các phần tử còn lại, bộ chọn này hay áp dụng cho các ô nhập liệu của form. Ví dụ, ô nhập liệu sau sẽ có nền màu vàng khi người dùng chọn,
+
+– :hover áp dụng khi người dùng rê con trỏ chuột trên một phần tử, mặc dù có thể áp dụng trên mọi phần tử HTML, tuy nhiên, bộ chọn này hay được áp dụng trên các liên kết, nhằm gây chú ý cho người sử dụng. Ví dụ, liên kết sẽ đổi màu nền khi người dùng rê chuột lên,
+
+– :active áp dụng khi một phần tử (nút hoặc liên kết) đang được bấm chuột. Ví dụ, liên kết sẽ đổi màu nền khi người dùng đang bấm chuột lên,
+
+[BoChonPseudoUser](Chuong17/LyThuyet/PseudoUser.html)
+
+##### Bộ chọn pseudo-class dựa trên cấu trúc tài liệu HTML
+
+Chúng ta có thể sử dụng bộ chọn pseudo-class để chọn ra các phần tử dựa vào vị trí của nó trong cấu trúc tài liệu HTML.
+
+[BoChonPseudoCautruc](Chuong17/LyThuyet/PseudoStructure.html)
+
+##### Bộ chọn pseudo-class cho các input của form
+
+Bộ chọn pseudo-class cho các input của form sẽ chọn ra các phần tử dựa vào thuộc tính HTML và trạng thái của các input trước và sau khi tương tác.
+
+[BoChonPseudoInput](Chuong17/LyThuyet/PseudoUser.html)
+
+#### 3.2.2. Bộ chọn phần tử giả (pseudo-element)
+
+##### Bộ chọn ::first-line
+
+Bộ chọn ::first-line được sử dụng để chọn hàng đầu tiên của một phần tử văn bản (khi văn bản hiển thị trên trình duyệt).
+
+[PseudoFirstLine](Chuong17/LyThuyet/PseudoFirstLine.html)
+
+##### Bộ chọn ::first-letter
+
+Bộ chọn ::first-letter được sử dụng để chọn kí tự đầu tiên của một phần tử văn bản (khi văn bản hiển thị trên trình duyệt).
+
+[PseudoFirstLetter](Chuong17/LyThuyet/PseudoFirstLetter.html)
+
+##### Bộ chọn ::before
+
+Bộ chọn ::before được sử dụng để chèn thêm nội dung vào trước một phần tử mà không cần chỉnh sửa mã nguồn HTML (cái này được gọi là thêm nội dung bằng CSS).
+
+[PseudoBefore](Chuong17/LyThuyet/PseudoBeforeAfter.html)
+
+##### Bộ chọn ::after
+
+Bộ chọn ::after được sử dụng để chèn thêm nội dung vào sau một phần tử mà không cần chỉnh sửa mã nguồn HTML (cái này được gọi là thêm nội dung bằng CSS).
+
+[PseudoAfter](Chuong17/LyThuyet/PseudoBeforeAfter.html)
+
+#### 3.2.3. Bộ chọn dựa vào thuộc tính
+Chúng ta có thể tạo bộ chọn dựa vào tên và giá trị thuộc tính của phần tử. Cách làm này giúp tạo ra các bộ chọn rất linh hoạt mà không cần phải thêm thuộc tính class hoặc id vào các phần tử.
+
+element[attribute]
+
+Đây là bộ chọn đơn giản, nó sẽ chọn ra các phần tử với tên thuộc tính cụ thể, không quan tâm tới giá trị của thuộc tính.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, có thuộc tính title
+
+`img[title] {border: 3px solid;}`
+
+element[attribute=“giá trị”]
+
+Bộ chọn này sẽ chọn ra các phần tử với tên và giá trị thuộc tính cụ thể. Vì giá trị có phân biệt chữ hoa/chữ thường nên cần xác định giá trị chính xác.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, có tên thuộc tính là title và giá trị là “con vịt”,
+
+`img[title="con vịt"] {border: 3px solid;}`
+
+element[attribute~=“giá trị”]
+
+Bộ chọn này sẽ chọn ra các phần tử với tên thuộc tính và một phần giá trị của thuộc tính.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, mà trong giá trị thuộc tính title có chứa từ “con”, như vậy, các phần tử img với title có giá trị là “con gà” hay “ vịt con” đều được chọn.
+
+`img[title~="con"] {border: 3px solid;}`
+
+element[attribute|=“giá trị”]
+
+Bộ chọn này sẽ chọn ra các phần tử với tên thuộc tính và giá trị thuộc tính sẽ bắt đầu bằng một từ cụ thể, sau đó là dấu gạch nối (hyphen) (-).
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, mà trong giá trị thuộc tính title bắt đầu là từ “con”, sau đó là dấu (-), như vậy các phần tử img với title có giá trị là “con-gà” hay “con-vịt” đều được chọn.
+
+`img[title|="con"] {border: 3px solid;}`
+
+element[attribute^=“phần đầu của giá trị”]
+
+Bộ chọn này sẽ chọn ra các phần tử, với tên thuộc tính và phần đầu của giá trị được xác định trước.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, mà trong giá trị thuộc tính src bắt đầu là chuỗi “/images/icons”.
+
+`img[src^="/images/icons"] {border: 3px solid;}`
+
+element[attribute$=“phần cuối của giá trị”]
+
+Bộ chọn này sẽ chọn ra các phần tử, với tên thuộc tính và phần cuối của giá trị được xác định trước.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, mà trong giá trị thuộc tính src kết thúc là chuỗi “.jpg”.
+
+`img[src^=".jpg"] {border: 3px solid;}`
+
+element[attribute*=“một phần giá trị bất kì”]
+
+Bộ chọn này sẽ chọn ra các phần tử, với tên thuộc tính và một phần bất kì trong giá trị thuộc tính.
+
+Ví dụ, bộ chọn sau sẽ chọn ra tất cả các phần tử img, mà trong giá trị thuộc tính title có chứa chuỗi “on”. Như vậy các phần tử img với title có giá trị là “con-gà” hay “con-vịt” hay “anh-chon” đều được chọn.
+
+[PseudoProperty](Chuong17/LyThuyet/Image/PseudoProperty.html)
+
+### Bài 3.2b. Làm một menu đơn giản như hình sau:
+
+[![Ảnh](Image/17.1.png)](Image/17.1.png)
+
+[Kết quả](Chuong17/3.2b/index.html)
+
+## 3.2.6. Câu hỏi ôn tập
+Câu 1. A _______ is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+
+A. pseudo-element
+
+<mark>B. pseudo-class</mark>
+
+C. id
+
+D. class
+
+Câu 2. In CSS, a _________ selector applies styles to parts of your document content in scenarios where there isn't a specific HTML element to select.
+
+A. element
+
+B. pseudo-class
+
+C. id
+
+<mark>D. pseudo-element</mark>
+
+Câu 3. Ví dụ, mã nguồn HTML có nhiều phần tử img, trong đó có 2 phần tử img với title có giá trị lần lượt là “con gà” và “ vịt con”. Bạn chỉ muốn chọn ra 2 phần tử img này, vậy bạn sẽ sử dụng bộ chọn nào dưới đây:
+
+A. `img[title] {border: 3px solid;}`
+
+<mark>B. `img[title~="con"] {border: 3px solid;}`</mark>
+
+C. `img[title|="con"] {border: 3px solid;}`
+
+D. `img[title="con"] {border: 3px solid;}`
+
+Câu 4. Ví dụ, mã nguồn HTML có nhiều phần tử img, trong đó có một số phần tử img có thuộc tính title. Bạn chỉ muốn chọn ra các phần tử img với thuộc tính title đi kèm (mà không quan tâm tới giá trị của thuộc tính), thì bạn sẽ sử dụng bộ chọn nào dưới đây:
+
+<mark>A. `img[title] {border: 3px solid;}`</mark>
+
+B. `img[title~=*] {border: 3px solid;}`
+
+C. `img[title|="*"] {border: 3px solid;}`
+
+D. `img[title="*"] {border: 3px solid;}`
+
+Giải thích:
+
+
+Câu 1 (B): Một pseudo-class (lớp giả) là một bộ chọn dùng để chọn các phần tử dựa trên một trạng thái (state) cụ thể của chúng. Ví dụ: :hover (khi di chuột qua), :focus (khi được chọn), :first-child (là con đầu tiên), :nth-child() (ở vị trí thứ n).
+
+
+Câu 2 (D): Một pseudo-element (phần tử giả) cho phép bạn định dạng cho các phần (part) cụ thể của một phần tử mà không có thẻ HTML riêng. Ví dụ: ::first-line (dòng đầu tiên của đoạn văn), ::first-letter (chữ cái đầu tiên), ::before (thêm nội dung vào trước), ::after (thêm nội dung vào sau).
+
+
+Câu 3 (B): Đây là một bộ chọn thuộc tính (attribute selector).
+
+
+    A [title]: Chọn mọi img có thuộc tính title.
+
+
+    B [title~="con"]: Chọn các phần tử có thuộc tính title chứa chính xác từ "con" (được ngăn cách bởi khoảng trắng). Nó sẽ khớp với title="con gà" (khớp từ "con") và title="vịt con" (khớp từ "con").
+
+
+    C [title|="con"]: Chọn title bằng "con" hoặc bắt đầu bằng "con-". Không khớp.
+
+
+    D [title="con"]: Chọn title chính xác là "con". Không khớp.
+
+
+Câu 4 (A): Bộ chọn img[title] là một bộ chọn sự tồn tại thuộc tính (attribute presence selector). Nó sẽ chọn tất cả các phần tử <img> có thuộc tính title, bất kể giá trị (value) của thuộc tính đó là gì. Các phương án B, C, D đều dùng để kiểm tra giá trị của thuộc tính.
 
 # Chương 18. Ảnh nền
 
