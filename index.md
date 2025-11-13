@@ -1505,6 +1505,7 @@ Câu 4 (B):
 
 <br> <br>
 
+
 # Chương 15. Bộ chọn 
 
 ## 2.3.6. Bài tập và thực hành
@@ -1587,7 +1588,106 @@ Vì (0,1,1) lớn hơn (0,0,2), nên bộ chọn (3) có độ ưu tiên cao nh�
 
 Câu 5 (A): ::first-line là một phần tử giả (pseudo-element) trong CSS. Nó cho phép bạn chọn và định dạng đặc biệt cho dòng văn bản đầu tiên của một phần tử khối (như <p>). Cú pháp đúng là sử dụng dấu hai chấm kép :: (hoặc dấu hai chấm đơn : trong CSS cũ).
 
+<br> <br>
+
+
 # Chương 16. Định dạng màu
+
+## 3.1.5. Bài tập và thực hành
+
+### Bài 3.1a. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### 3.1. Định dạng màu
+
+##### 3.1.1. Xác định màu
+
+Có hai cách phổ biến để xác định một màu, một là dùng các tên màu định sẵn và hai là dùng giá trị số (mỗi màu có một giá trị số tương ứng).
+
+##### 3.1.2. Màu chữ & màu nền
+
+###### Màu chữ
+
+Chúng ta có thể thiết lập màu chữ (foreground color) cho mọi phần tử HTML. Khi thiết lập màu chữ, màu đường viền (border) cũng được thiết lập. Để thiết lập màu chữ, sử dụng thuộc tính color.
+
+Thuộc tính color:
+
+– Giá trị: giá trị màu (tên hoặc số)
+
+– Mặc định: tùy trình duyệt và thiết lập của người dùng
+
+– Áp dụng: cho mọi phần tử
+
+– Kế thừa: có
+
+Ví dụ, chỉ dẫn CSS sau sẽ thiết lập màu chữ xanh nhạt cho phần tử blockquote, với các giá trị R:80, G:140 và B:25, đổi giá trị này sang hệ 16 sẽ là #508C19. Hai phần tử p và em là hậu duệ của phần tử blockquote nên cũng được kế thừa màu vừa thiết lập. [Màu chữ](Chuong16/MauChu.html)
+
+###### Màu nền
+
+Sử dụng thuộc tính background-color để thiết lập màu nền cho các phần tử HTML.
+
+Thuộc tính background-color:
+
+– Giá trị: giá trị màu (tên hoặc số) | transparent
+
+– Mặc định: transparent (trong suốt)
+
+– Áp dụng: cho mọi phần tử
+
+– Kế thừa: không
+
+Khung nền (background, hoặc canvas) bao gồm: vùng chứa nội dung, khoảng đệm phía trong đường viền (padding), nền chứa đường viền, không bao gồm vùng đệm phía ngoài đường viền (margin).
+
+Mặc định, thuộc tính background-color sẽ đổ màu cho toàn bộ phần khung nền, hay được gọi tắt là nền.
+
+Ví dụ, định dạng màu nền cho phần tử blockquote. [MauNen](Chuong16/MauNen.html)
+
+##### 3.1.3. Làm mờ một phần tử
+Ở phần trước, chúng ta đã tìm hiểu cách làm mờ một phần tử bằng định dạng màu RGBa. Phần này giới thiệu một cách khác để làm mờ phần tử bằng thuộc tính opacity. Opacity có nghĩa là độ mờ.
+
+Thuộc tính opacity:
+
+– Giá trị: giá trị số (trong khoảng từ 0 đến 1)
+
+– Mặc định: 1
+
+– Áp dụng: cho mọi phần tử
+
+– Kế thừa: không
+
+Giá trị của thuộc tính opacity càng nhỏ thì phần tử càng mờ, giá trị 0 là mờ nhất, giá trị 1 là rõ nhất. [LamMo1PhanTu](Chuong16/LamMo.html)
+
+### Bài 3.1b. Định dạng màu cho chữ Google, giống như trong trang google.com
+
+[Kết quả](Chuong16/GoogleProject/index.html)
+
+## 3.1.6. Câu hỏi ôn tập
+Câu 1. Phần tử p sẽ có chữ màu gì, với chỉ dẫn CSS sau: p { color: rgb(255, 0, 0); }
+
+A. Xanh lá cây (green)
+B. Xanh nước biển (blue)
+C. Trắng
+<mark>D. Đỏ</mark>
+
+Câu 2. Chỉ dẫn CSS nào sau đây hợp lệ?
+
+A. p { color: #4455GG; }
+<mark>B. p { color: rgba(255, 0, 255, .5); }</mark>
+C. p { color: rgb(255, 0, 256, .5); }
+D. p { color: rgb(255, 0, 256); }
+
+Câu 3. Chỉ dẫn CSS nào sau đây không hợp lệ?
+
+A. p { color: #4455FF; }
+<mark>B. p { color: rgba(255, 0, 255, 2); }</mark>
+C. p { color: rgba(255, 0, 254, .5); }
+D. p { color: rgb(0, 0, 0); }
+
+Câu 4. Muốn giới hạn vùng nền chỉ gồm phần nội dung của phần tử, cần thiết lập giá trị cho thuộc tính background-clip là gì?
+
+A. border-box
+B. none
+<mark>C. content-box</mark>
+D. padding-box
 
 # Chương 17. Bộ chọn theo trạng thái & thuộc tính
 
