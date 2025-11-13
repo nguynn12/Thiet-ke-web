@@ -1509,7 +1509,83 @@ Câu 4 (B):
 
 ## 2.3.6. Bài tập và thực hành
 
+### Bài 2.3a. Viết lại các đoạn mã trong phần lý thuyết.
 
+[LyThuyet](Chuong15/LyThuyet.html)
+
+### Bài 2.3b. Sử dụng mã HTML (menu.html) của bài tập phần Phông chữ. 
+
+Trong bày tập này, chúng ta sẽ thêm một số chỉ dẫn định kiểu, sử dụng các bộ chọn hậu duệ (descendant), ID và lớp (class), kết hợp với các thuộc tính phông chữ (font) và màu sắc (color) mà chúng ta đã tìm hiểu trước đó.
+
+[2.3b](Chuong15/2.3b.html)
+
+### Exercise 2.3c. Use HTML source code (menu.html) of the exercise of the Font
+
+This time, we’ll add a few more style rules using descendant, ID, and class selectors combined with the font and color properties we’ve learned about so far.
+
+This exercise is as the same as 2.3b so I won't show them here.
+
+## 2.3.7. Câu hỏi ôn tập
+
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. Muốn định dạng mọi phần tử div và h1 đều có chữ màu đỏ, dùng chỉ dẫn CSS nào?</b> <br>
+
+A. div > h1 { color: red; } <br>
+B. div ~ h1 { color: red; } <br>
+<mark>C. div  h1 { color: red; }</mark> <br>
+D. div + h1 { color: red; } <br>
+
+<b>Câu 2. Muốn định dạng mọi phần tử div và có thuộc tính class="intro" có chữ màu đỏ, dùng chỉ dẫn CSS nào?</b> <br>
+
+A. div > .intro { color: red; } <br>
+<mark>B. div.intro { color: red; }</mark> <br>
+C. div .intro { color: red; } <br>
+D. div#intro { color: red; } <br>
+
+<b>Câu 3. Muốn định dạng mọi phần tử div và có thuộc tính id="intro" có chữ màu đỏ, dùng chỉ dẫn CSS nào?</b> <br>
+
+A. div > .intro { color: red; } <br>
+B. div.intro { color: red; } <br>
+C. div #intro { color: red; } <br>
+<mark>D. div#intro { color: red; }</mark>
+   </div>
+
+   <div class="cot">
+<b>Câu 4. Trong 3 chỉ dẫn CSS sau: (1) p { line-height: 1.2em; }, (2) blockquote p { line-height: 1em; }, (3) p.intro { line-height: 2em; }, xét theo độ “rõ ràng, chính xác, specificity”, cái nào có độ ưu tiên cao nhất?</b>
+      <div class="chia">
+<div class="cot">A. 1</div>
+<div class="cot">B. 2</div>
+<div class="cot"><mark>C. 3</mark></div>
+<div class="cot">D. 2 và 3</div>
+      </div> <br>
+
+<b>Câu 5. Muốn định dạng hàng đầu tiên của đoạn có chữ màu đỏ, dùng chỉ dẫn CSS nào?</b> <br>
+
+<mark>A. p::first-line{ color: red; }</mark> <br>
+B. p>first-line{ color: red; } <br>
+C. p+first-line{ color: red; } <br>
+D. p~first-line{ color: red; } 
+   </div>
+</div> <br>
+
+Giải thích: <br>
+
+Câu 1 (C): Bộ chọn div h1 (có dấu cách) là một bộ chọn hậu duệ (descendant selector). Nó sẽ chọn tất cả các phần tử `<h1>` nằm bên trong (là con, cháu, chắt...) của một phần tử `<div>`. <br>
+
+Câu 2 (B): Bộ chọn div.intro (viết liền, không có dấu cách) sẽ chọn tất cả các phần tử vừa là `<div>` VÀ vừa có class tên là "intro". Đây là cách kết hợp bộ chọn thẻ (tag) và bộ chọn class (class). <br>
+
+Câu 3 (D): Tương tự như trên, bộ chọn div#intro (viết liền) sẽ chọn phần tử vừa là `<div>` VÀ vừa có ID tên là "intro". Dấu # là ký hiệu cho bộ chọn ID. <br>
+
+Câu 4 (C): Độ ưu tiên (specificity) được tính để giải quyết xung đột khi nhiều chỉ dẫn CSS cùng áp dụng cho một phần tử. Cách tính đơn giản: ID > Class > Tag. <br>
+
+(1) p: 1 tag (Độ ưu tiên: 0,0,1) <br>
+(2) blockquote p: 2 tag (Độ ưu tiên: 0,0,2) <br>
+(3) p.intro: 1 class, 1 tag (Độ ưu tiên: 0,1,1) <br>
+
+Vì (0,1,1) lớn hơn (0,0,2), nên bộ chọn (3) có độ ưu tiên cao nhất. Một class luôn "mạnh" hơn bất kỳ số lượng tag nào. <br>
+
+Câu 5 (A): ::first-line là một phần tử giả (pseudo-element) trong CSS. Nó cho phép bạn chọn và định dạng đặc biệt cho dòng văn bản đầu tiên của một phần tử khối (như <p>). Cú pháp đúng là sử dụng dấu hai chấm kép :: (hoặc dấu hai chấm đơn : trong CSS cũ).
 
 # Chương 16. Định dạng màu
 
