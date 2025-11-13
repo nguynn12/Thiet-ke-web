@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Đặt hàng | Tiệm tạp hóa nhà Ny</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#fdf6e3; color:#333; }
+    header, footer { background:#ffcc80; text-align:center; padding:12px; }
+    main { max-width:600px; margin:20px auto; padding:16px; background:#fff8e1; border-radius:8px; }
+    fieldset { border:1px solid #ccc; border-radius:6px; padding:12px; margin-bottom:16px; }
+    legend { font-weight:bold; }
+    label { display:block; margin:6px 0 3px; }
+    input, textarea { width:100%; padding:8px; border:1px solid #aaa; border-radius:4px; background:#fffdf5; }
+    .actions { margin-top:12px; text-align:center; }
+    input[type="submit"], input[type="reset"] {
+      background:#ffcc80; border:none; padding:8px 16px; border-radius:4px;
+      font-weight:bold; cursor:pointer; margin:0 4px; color:#004d40;
+    }
+    input[type="submit"]:hover { background:#ffb74d; }
+    input[type="reset"]:hover { background:#eee; }
+    #xacnhan { display:none; border-left:4px solid #2e7d32; background:#f0fff3; padding:12px; margin-top:16px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Liên hệ / Đặt hàng nhanh</h1>
+    <nav><a href="index.html">← Trang chủ</a> · <a href="thoiGianMoCua.html">Thời gian mở cửa</a></nav>
+  </header>
+
+  <main>
+    <form id="orderForm">
+      <fieldset>
+        <legend>Thông tin khách hàng</legend>
+        <label for="ten">Họ và tên:</label>
+        <input type="text" id="ten" required>
+        <label for="sdt">Số điện thoại:</label>
+        <input type="tel" id="sdt" required>
+        <label for="diachi">Địa chỉ:</label>
+        <input type="text" id="diachi">
+      </fieldset>
+
+      <fieldset>
+        <legend>Danh sách hàng cần</legend>
+        <textarea id="hang" rows="5" required placeholder="VD: 5 gói mì, 2 lít dầu ăn..."></textarea>
+      </fieldset>
+
+      <p class="actions">
+        <input type="submit" value="Gửi đơn">
+        <input type="reset" value="Xóa">
+      </p>
+    </form>
+
+    <div id="xacnhan">
+      <h3>✅ Đơn hàng đã được ghi nhận!</h3>
+      <p id="thongtin"></p>
+    </div>
+  </main>
+
+  <footer><p>&copy; 2025 Tiệm tạp hóa nhà Ny.</p></footer>
+
+  <script>
+    const f = document.getElementById('orderForm');
+    const box = document.getElementById('xacnhan');
+    const info = document.getElementById('thongtin');
+
+    f.addEventListener('submit', e => {
+      e.preventDefault();
+      const ten = document.getElementById('ten').value.trim();
+      const sdt = document.getElementById('sdt').value.trim();
+      const dc  = document.getElementById('diachi').value.trim();
+      const hang= document.getElementById('hang').value.trim();
+
+      if(!ten || !hang){
+        alert("Vui lòng nhập Họ tên và Danh sách hàng.");
+        return;
+      }
+
+      const ma = "NY-" + Date.now().toString().slice(-6);
+      info.innerHTML = 
+        "<b>Mã đơn:</b> "+ma+"<br>"+
+        "<b>Khách:</b> "+ten+"<br>"+
+        (sdt?("<b>SĐT:</b> "+sdt+"<br>"):"")+
+        (dc?("<b>Địa chỉ:</b> "+dc+"<br>"):"")+
+        "<b>Hàng đặt:</b><br>"+hang.replace(/\n/g,"<br>");
+      box.style.display = 'block';
+      window.scrollTo(0,0);
+    });
+  </script>
+</body>
+</html>

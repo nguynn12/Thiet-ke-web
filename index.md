@@ -1094,7 +1094,9 @@ C. markup database <br>
 
 # Chương 10. Dự án HTML
 
-## [Dự án 1](Chuong10/index.html)
+## [Dự án 1](Chuong10/baitap1/index.html)
+
+## [Dự án 2](Chuong10/baitap2/index.html)
 
 # Chương 11. CSS - Tổng quan
 
@@ -1340,6 +1342,112 @@ B. Máy server cung cấp dịch vụ phông chữ
 C. Thư mục fonts trong website <br>
 <mark>D. Máy tính của lập trình viên</mark>
          </div>
+      </div>
+   </div>
+</div>
+
+## 2.2.8. Bài tập và thực hành
+
+### Bài 2.2a. Viết lại các đoạn mã trong phần lý thuyết.
+
+#### 2.2. Định dạng chữ
+
+##### [2.2.1. Cỡ chữ](Chuong14/2.2.1.html)
+
+##### [2.2.2. Độ đậm của chữ](Chuong14/2.2.2.html)
+
+##### [2.2.3. Kiểu chữ nghiêng](Chuong14/2.2.3.html)
+
+##### [2.2.4. Kiểu chữ hoa đặc biệt](Chuong14/2.2.4.html)
+
+##### [2.2.5. Viết rút gọn các thuộc tính phông](Chuong14/2.2.5.html)
+
+##### [2.2.6. Màu chữ](Chuong14/2.2.6.html)
+
+### Bài 2.2b. Thiết lập kích thước phông.
+
+Chúng ta cùng tinh chỉnh kích thước của một số phần tử văn bản để thực đơn của nhà hàng nhìn có vẻ đặc biệt hơn. Mở tập tin menu.html (làm tiếp trên tập tin của bài tập 2.1 về phông chữ) trong trình viết mã và thực hiện các bước sau. Bạn có thể lưu lại tập tin mỗi khi thực hiện thay đổi, và mở lại trên trình duyệt để xem kết quả. Bạn cũng có thể thiết lập phông chữ với kích thước bất kỳ theo ý bạn. [Kết quả](Chuong14/menu1.html)
+
+### Bài 2.2c. Setting font size.
+
+Let’s refine the size of some of the text elements to give the online menu a more sophisticated appearance. Open menu.html (get this file from Bài tập2 in Phông chữ topic) in a text editor and follow the steps. You can save the document at any point and take a peek in the browser to see the results of your work. You should also feel free to try out other size values along the way.[Result](Chuong14/menu1.html)
+
+### Bài tập 2.2d. Mở một trang web trên Internet (ví dụ một trang trong themeforest, báo Thanh niên, hoặc thegioididong, …), sử dụng Developer tools để ghi lại các phông chữ, cỡ chữ, độ đậm, kiểu dáng đã sử dụng.
+
+| Nội dung              | Phông chữ                     | Cỡ chữ | Độ đậm       | Kiểu dáng   |
+|-----------------------|-------------------------------|--------|--------------|-------------|
+| Menu chính            | Merriweather (có chân – serif) | 14px   | 700 (bold)   | Bình thường |
+| Tiêu đề h1            | Merriweather (có chân – serif) | 40px   | 700 (bold)   | Bình thường |
+| Đoạn văn bản          | Inter (không chân – sans-serif) | 18px   | 400 (normal) | Bình thường |
+| Nội dung vùng chân trang | Inter (không chân – sans-serif) | 15px   | 400 (normal) | Bình thường |
+
+## 2.2.9. Câu hỏi ôn tập
+
+<div class="chia">
+   <div class="cot">
+<b>Câu 1. _____ is defined relative to the font size of the root element. The root element is matched by the :root pseudo-class or the html selector. 1____ therefore takes on the value which is given to the font-size of the root element.</b>
+      <div class="chia">
+<div class="cot">A. em</div>
+<div class="cot"><mark>B. rem</mark></div>
+<div class="cot">C. %</div>
+<div class="cot">D. vw</div>
+      </div> <br>
+
+<b>Câu 2. Chỉ dẫn CSS nào sau đây bị lỗi:</b>
+
+A. h1 { font-size: 100%; } <br>
+B. h1 { font-size: 20px;   } <br>
+C. h1 { font-size: 1.5rem;   } <br>
+<mark>D. h1 { font-size: 1.5 em; }</mark>
+   
+<b>Câu 3. Trong CSS, muốn định dạng chữ nghiêng, sử dụng thuộc tính nào?</b>
+      <div class="chia">
+         <div class="cot">
+A. font-weight <br>
+<mark>B. font-style</mark>
+         </div>
+         <div class="cot">
+C. font-variant <br>
+D. font-size
+         </div>
+      </div>
+   </div>
+
+   <div class="cot">
+<b>
+
+Câu 4. Cho đoạn mã sau:   
+```
+…
+<head>
+
+   <style>
+
+        html { font-size: 100%; }
+
+        article { font-size: 0.875em }
+
+        h1 { font-size: 1.5em; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <article>
+
+        <h1>Tiêu đề h1</h1>
+
+    </article>
+…
+```
+Cỡ chữ của h1 là bao nhiêu px?</b>
+      <div class="chia">
+<div class="cot">A. 16</div>
+<div class="cot"><mark>B. 21</mark></div>
+<div class="cot">C. 14</div>
+<div class="cot">D. 24</div>
       </div>
    </div>
 </div>
