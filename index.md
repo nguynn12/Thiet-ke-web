@@ -1417,11 +1417,11 @@ D. font-size
 <b>
 
 Câu 4. Cho đoạn mã sau:   
-```
-…
-<head>
 
-   <style>
+…
+&lt;head&gt;
+
+   &lt;style&gt;
 
         html { font-size: 100%; }
 
@@ -1429,19 +1429,19 @@ Câu 4. Cho đoạn mã sau:
 
         h1 { font-size: 1.5em; }
 
-    </style>
+    &lt;/style&gt;
 
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
 
-    <article>
+    &lt;article&gt;
 
-        <h1>Tiêu đề h1</h1>
+        &lt;h1>Tiêu đề h1&lt;/h1&gt;
 
-    </article>
+    &lt;/article&gt;
 …
-```
+
 Cỡ chữ của h1 là bao nhiêu px?</b>
       <div class="chia">
 <div class="cot">A. 16</div>
